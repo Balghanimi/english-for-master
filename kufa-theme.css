@@ -1,0 +1,140 @@
+/* University of Kufa inspired institutional theme
+   Palette direction follows the University's green-led visual identity and
+   the Faculty of Engineering's green / blue / gold accents. */
+:root{
+  --navy:#123f2d;
+  --blue:#1f6b4a;
+  --cyan:#276f97;
+  --gold:#c6a15b;
+  --orange:#a86c27;
+  --ink:#17231d;
+  --muted:#4d5e55;
+  --line:#b7c8bd;
+  --soft:#f3f7f4;
+  --green:#1f6b4a;
+  --kufa-green:#1f6b4a;
+  --kufa-green-dark:#123f2d;
+  --kufa-blue:#276f97;
+  --kufa-gold:#c6a15b;
+  --kufa-ivory:#fbfaf4;
+}
+
+body{
+  background:linear-gradient(180deg,#edf4ef 0,#fbfaf4 34%,#f1f6f2 100%);
+  color:var(--ink);
+}
+a{color:#15563b}
+.site{
+  border-color:#9eb8a8;
+  box-shadow:0 20px 55px rgba(18,63,45,.13);
+}
+header{
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 88% 16%,rgba(39,111,151,.32),transparent 28%),
+    radial-gradient(circle at 80% 120%,rgba(198,161,91,.18),transparent 34%),
+    linear-gradient(135deg,#0d3425 0%,#155239 52%,#1f6b4a 100%);
+  border-bottom:8px solid var(--kufa-gold);
+}
+header::after{
+  content:"";
+  position:absolute;
+  width:260px;
+  height:260px;
+  right:-84px;
+  top:-92px;
+  border:2px solid rgba(255,255,255,.16);
+  border-radius:50%;
+  box-shadow:0 0 0 26px rgba(255,255,255,.035),0 0 0 52px rgba(198,161,91,.045);
+  pointer-events:none;
+}
+.ey{color:#f3dfb4;letter-spacing:.13em}
+.hero,.deck,.actions{position:relative;z-index:1}
+.deck{color:#f6fbf7}
+.btn{color:var(--kufa-green-dark);border-color:#fff;background:#fff}
+.btn.alt{background:var(--kufa-blue);border-color:var(--kufa-blue);color:#fff}
+.btn.gold{background:var(--kufa-gold);border-color:var(--kufa-gold);color:#2f281d}
+.btn:hover{filter:brightness(.97)}
+
+nav{
+  background:#fff;
+  border-bottom:3px solid var(--kufa-gold);
+}
+nav a{color:#214b38}
+nav a:hover{background:var(--kufa-green);color:#fff}
+.week-page nav{
+  background:rgba(255,255,255,.97);
+  box-shadow:0 8px 20px rgba(18,63,45,.12);
+  border-bottom:3px solid var(--kufa-gold);
+}
+.week-page nav .nav-brand{background:var(--kufa-green-dark);border-color:var(--kufa-green-dark)}
+
+.head{border-bottom-color:var(--kufa-green)}
+.head h2,.card h3,.task h3,.resource h3,.resource-pro h3,.week h3,.outcome b,.micro strong{color:var(--kufa-green-dark)}
+.label,.section-kicker{color:#8b5b24}
+.key{color:#123f2d;background:linear-gradient(transparent 67%,#efe0b9 67%)}
+
+.card,.task,.week,.resource,.resource-pro,.slot,.outcome{border-color:var(--line)}
+.card{box-shadow:0 5px 16px rgba(18,63,45,.045)}
+.note{border-left-color:var(--kufa-gold);background:#fbf4df;color:#5b4427}
+.source{border-left-color:var(--kufa-green);background:#eef6f1;color:#214b38}
+.takeaway{background:#edf5ef;border-color:#a8c6b2;color:#244d39}
+.takeaway strong{color:#15563b}
+.lecture-callout{background:linear-gradient(135deg,#123f2d,#1f6b4a)}
+.lecture-callout strong{color:#f2d9a3}
+
+.outcome{border-top-color:var(--kufa-green)}
+.outcome:nth-child(2){border-top-color:var(--kufa-blue)}
+.outcome:nth-child(3){border-top-color:var(--kufa-gold)}
+.outcome:nth-child(4){border-top-color:#557d4b}
+
+th{background:var(--kufa-green-dark)}
+tr:nth-child(even) td{background:#f6f9f7}
+.slot .time{color:#15563b}
+.slot.break{background:#fbf4df;border-color:#d7bd83}
+
+.bad{background:#fff1ef}
+.good{background:#edf7f1;border-left-color:var(--kufa-green)}
+.prompt{background:#f5f8f6}
+.reveal-btn{border-color:var(--kufa-green);color:#15563b}
+.reveal-btn:hover{background:var(--kufa-green);color:#fff}
+.answer-key{border-color:#8fc3a6;border-left-color:var(--kufa-green);background:#eef8f2}
+.hedge-tools span{background:#edf5ef;color:#15563b;border-color:#a9cbb6}
+.conditions{background:#fbf4df;border-color:#d8bd82;color:#5b4427}
+.student-answer-note{background:#edf5ef;border-color:#b5cdbd;color:#365346}
+.practice-bank{border-color:#b7c8bd;background:linear-gradient(180deg,#f4f8f5,#fff)}
+.practice-badge{background:#e9f4ed;color:#15563b;border-color:#9bc3aa}
+.data-card,.choice-row{border-color:#c5d3ca;background:#f7faf8}
+.editing-passage{border-color:#d0b26f;background:#fbf6e7}
+
+.week{border-top-color:var(--kufa-green)}
+.week:nth-child(3n+2){border-top-color:var(--kufa-blue)}
+.week:nth-child(3n){border-top-color:var(--kufa-gold)}
+.week.review{background:#eef5f0;border-top-color:var(--kufa-green-dark)}
+.num{background:var(--kufa-green)}
+.status{background:#edf5ef;color:#15563b;border-color:#a7c8b3}
+.ready{background:#e9f5ee;color:#14593d;border-color:#8fc3a6}
+.open{border-color:var(--kufa-green);color:#15563b}
+
+.error-grid .card{border-top-color:var(--kufa-green)}
+.error-grid .card:nth-child(2){border-top-color:var(--kufa-blue)}
+.error-grid .card:nth-child(3){border-top-color:var(--kufa-gold)}
+.error-grid .card:nth-child(4){border-top-color:#7d6b43}
+.error-grid .card:nth-child(5){border-top-color:#527b49}
+.error-grid .card:nth-child(6){border-top-color:#466f65}
+
+.paper-phrase{
+  text-decoration-color:var(--kufa-gold)!important;
+}
+.paper-phrase::selection{background:#efe0b9}
+
+.completion{background:var(--kufa-green-dark)}
+.completebtn{background:var(--kufa-gold);color:#2f281d}
+.completebtn.done{background:#9cc6a9;color:#123f2d}
+footer{background:#eef5f0;border-top-color:#b2c7b9;color:#405449}
+
+@media print{
+  header{background:#155239!important;border-bottom-color:#c6a15b!important}
+  th{background:#123f2d!important}
+}
