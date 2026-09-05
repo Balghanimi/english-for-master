@@ -26,6 +26,10 @@ The student-facing Week 1 page includes:
 
 Instructor-only presentation cues are intentionally excluded from the student-facing page.
 
+## Deployment
+
+Vercel production deploys from the `main` branch of this repository.
+
 ## Public site
 
 https://english-for-master.vercel.app/
