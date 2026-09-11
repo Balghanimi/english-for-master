@@ -1,0 +1,23 @@
+name: Update Week 2 Homework AI Source
+on:
+  push:
+    paths:
+      - '.github/workflows/update-week2-homework-ai.yml'
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install beautifulsoup4
+      - run: python scripts/update_week2_homework_ai.py
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add week02.html
+          git diff --cached --quiet || git commit -m 'Use NASA AI article for Week 2 homework'
+          git push
