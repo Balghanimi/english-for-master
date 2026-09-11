@@ -30,3 +30,4 @@ jobs:
           git add week02.html
           git diff --cached --quiet || git commit -m 'Repair Week 2 solution buttons and simplify student timing'
           git push
+# trigger: 2026-09-11
