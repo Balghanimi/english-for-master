@@ -19,9 +19,9 @@
 .core-banner,.extra-banner,.source-note{padding:13px 15px;border-radius:11px;margin:12px 0}.core-banner{background:#edf5ef;border:1px solid #a8c6b2;color:#244d39}.extra-banner{background:#fbf4df;border:1px solid #d8bd82;color:#5b4427}.source-note{background:#f8f4e9;border:1px solid #d9c69c;color:#5a4729}
 .mini-rule{padding:12px 14px;border-left:5px solid var(--kufa-blue,#276f97);border-radius:10px;background:#eef5f8}.data-box{padding:18px;border:1.5px solid #a8c6b2;border-radius:14px;background:#f8fbf9}.signal{display:inline-block;padding:4px 8px;border-radius:999px;background:#edf5ef;border:1px solid #aac7b5;color:#15563b;font:800 11px system-ui;margin:2px}.real-task{padding:15px;border:1px dashed #8db39c;border-radius:12px;background:#fbfdfb}
 .peer-mini{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}.peer-mini div{background:#fff;padding:9px}.peer-mini .h{font-weight:800;background:#edf5ef}
-.build-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.build-grid label{font-size:12px;font-weight:800;color:var(--navy)}.build-grid input{width:100%}
-@media(max-width:950px){.focus-grid,.where-grid,.keyword-grid,.rule-strip,.quant-grid,.build-grid{grid-template-columns:1fr 1fr}.wordbank{grid-template-columns:1fr}}
-@media(max-width:680px){.focus-grid,.where-grid,.keyword-grid,.rule-strip,.quant-grid,.before-after,.build-grid{grid-template-columns:1fr}}
+.build-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.build-grid label{font-size:12px;font-weight:800;color:var(--navy)}.build-grid input{width:100%}.example-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.example-card{padding:15px;border:1px solid var(--line);border-radius:12px;background:#fff}.example-card h3{margin-top:0}.example-tag{display:inline-block;font:800 10px system-ui;padding:4px 7px;border-radius:999px;background:#edf5ef;border:1px solid #b7cfbf;color:#15563b;margin-bottom:7px}.phrase-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.phrase-grid .card ul{margin:8px 0 0;padding-left:18px}
+@media(max-width:950px){.focus-grid,.where-grid,.keyword-grid,.rule-strip,.quant-grid,.build-grid,.example-grid{grid-template-columns:1fr 1fr}.wordbank{grid-template-columns:1fr}}
+@media(max-width:680px){.focus-grid,.where-grid,.keyword-grid,.rule-strip,.quant-grid,.before-after,.build-grid,.example-grid,.phrase-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body class="week-page">
@@ -32,7 +32,7 @@
 <p class="deck"><strong>Descriptive Academic Language for Engineers</strong><br>Precision · Objectivity · Quantification · Technical Description<br><small>Prepared by Assist. Prof. Dr. Adnan Alamili</small></p>
 <div class="actions"><a class="btn" href="/">← Dashboard</a><a class="btn alt" href="/week03.html">← Week 3</a><a class="btn" href="/syllabus.html">Syllabus</a><button class="btn gold" onclick="window.print()">Print / Save PDF</button></div>
 </header>
-<nav aria-label="Week 4 navigation"><a class="nav-brand" href="#top">Week 4</a><a href="#purpose">Purpose</a><a href="#outcomes">Outcomes</a><a href="#keywords">Key Words</a><a href="#precision">Precision</a><a href="#tone">Tone</a><a href="#language">Language Tools</a><a href="#quantities">Quantities</a><a href="#practice">Core Practice</a><a href="#group">Group Task</a><a href="#authentic">Real Paper</a><a href="#homework">Homework</a><a href="#extra">Extra</a></nav>
+<nav aria-label="Week 4 navigation"><a class="nav-brand" href="#top">Week 4</a><a href="#purpose">Purpose</a><a href="#outcomes">Outcomes</a><a href="#keywords">Key Words</a><a href="#precision">Precision</a><a href="#examples">More Examples</a><a href="#tone">Tone</a><a href="#language">Language Tools</a><a href="#quantities">Quantities</a><a href="#practice">Core Practice</a><a href="#group">Group Task</a><a href="#authentic">Real Paper</a><a href="#homework">Homework</a><a href="#extra">Extra</a></nav>
 <main>
 
 <section id="purpose">
@@ -85,6 +85,18 @@
 </table></div>
 </section>
 
+
+<section id="examples"><div class="head"><div><span class="label">Course-added engineering examples</span><h2>More Vague → Precise Examples</h2></div><p>These examples extend the source handout to several MSc Electrical Engineering contexts.</p></div>
+<div class="example-grid">
+<div class="example-card"><span class="example-tag">Power systems</span><h3>Voltage regulation</h3><p><strong>Vague:</strong> The voltage changed a lot.</p><p><strong>Precise:</strong> Bus voltage decreased from 1.00 p.u. to 0.91 p.u. when the load increased from 60% to 100% of rated demand.</p></div>
+<div class="example-card"><span class="example-tag">Power electronics</span><h3>Converter efficiency</h3><p><strong>Vague:</strong> The converter was more efficient.</p><p><strong>Precise:</strong> Peak conversion efficiency increased from 93.8% to 96.2% after the switching strategy was revised.</p></div>
+<div class="example-card"><span class="example-tag">Control</span><h3>Dynamic response</h3><p><strong>Vague:</strong> The controller responded faster.</p><p><strong>Precise:</strong> The revised controller reduced settling time from 240 ms to 150 ms following a 20% step increase in load.</p></div>
+<div class="example-card"><span class="example-tag">Communications</span><h3>Signal quality</h3><p><strong>Vague:</strong> The signal became weak.</p><p><strong>Precise:</strong> Received signal power declined from −48 dBm to −67 dBm as the transmitter–receiver separation increased from 5 m to 20 m.</p></div>
+<div class="example-card"><span class="example-tag">Renewable energy</span><h3>PV output</h3><p><strong>Vague:</strong> The solar panel produced less power.</p><p><strong>Precise:</strong> PV output decreased from 310 W to 245 W when irradiance fell from 1000 W/m² to 800 W/m².</p></div>
+<div class="example-card"><span class="example-tag">AI for engineering</span><h3>Fault detection</h3><p><strong>Vague:</strong> The AI model was accurate.</p><p><strong>Precise:</strong> The classifier achieved 96.4% accuracy on the test set and reduced the false-negative rate to 2.1%.</p></div>
+</div>
+<div class="mini-rule" style="margin-top:14px"><strong>Pattern to notice:</strong> the improved versions name the variable, report a measurable value, and state the condition or comparison. They do not become “academic” simply by using longer words.</div>
+</section>
 <section id="tone"><div class="head"><div><span class="label">Formal and objective tone</span><h2>Report Evidence, Not Reaction</h2></div><p>The source handout recommends formal, impersonal language and avoiding colloquial or emotive wording.</p></div>
 <div class="before-after">
 <div class="before"><h3>Less Academic</h3><p>The converter got really hot.</p><p>The new design worked amazingly well.</p><p>A lot of energy was lost.</p></div>
@@ -106,6 +118,24 @@
 <div class="card"><h3>Nominalisation</h3><p>Verb-based: The device <strong>failed to operate because the voltage dropped</strong>.</p><p>Nominalised: <strong>Device failure resulted from a voltage drop.</strong></p><p class="mini-rule"><strong>Use selectively.</strong> The handout presents nominalisation as a formal-style tool; clarity remains more important than turning every verb into a noun.</p></div>
 </div>
 
+
+<div class="head" style="margin-top:20px"><div><span class="label">Useful sentence patterns</span><h2>Method Language vs Result Language</h2></div><p>These course-added patterns help students transfer the Week 4 skill into thesis and paper writing.</p></div>
+<div class="phrase-grid">
+<div class="card"><h3>Describing a Method</h3><ul>
+<li>The voltage was measured at intervals of 10 ms.</li>
+<li>The prototype was tested under three load conditions.</li>
+<li>A finite-element model was used to calculate the field distribution.</li>
+<li>The samples were heated to 120°C for 30 minutes.</li>
+<li>Data were collected from 50 operating cycles.</li>
+</ul></div>
+<div class="card"><h3>Describing a Result</h3><ul>
+<li>The measured efficiency reached a maximum of 96.2%.</li>
+<li>Power loss decreased by 14% relative to the baseline case.</li>
+<li>The output remained stable between 48.7 and 49.2 V.</li>
+<li>A sharp voltage drop occurred after the load exceeded 80%.</li>
+<li>Figure 4 shows a steady reduction in harmonic distortion.</li>
+</ul></div>
+</div>
 <div class="mini-rule" style="margin-top:14px"><strong>Sentence structure from the handout:</strong> avoid strings of very short sentences and excessively long sentences. Use connectors such as <em>however</em>, <em>furthermore</em> and <em>as a result</em> when they make the relationship between ideas explicit. Detailed sentence building comes later in Week 7 and cohesion in Week 9.</div>
 </section>
 
@@ -119,6 +149,9 @@
 <div class="mini-rule" style="margin-top:14px"><strong>Evidence first:</strong> choose <em>sharp, gradual, steady</em> or <em>slight</em> only when the data pattern supports that description. Start and end values alone do not always show how the change happened.</div>
 </section>
 
+
+<div class="source-note"><strong>Source exercise note:</strong> the original handout describes 120 kWh as “just under one-quarter less” than 145 kWh. The exact difference is 25 kWh, which is about <strong>17%</strong> of 145 kWh. In the interactive solution below, the exact calculation is used so students practise numerical accuracy.</div>
+<div class="source-note"><strong>Trend exercise note:</strong> the original handout labels a change from 60% to 90% over 20 hours as a <em>gradual rise</em>. Because two endpoints alone do not show the path of change, the course extension below adds intermediate values before asking students to choose a trend descriptor. This keeps the original teaching point while making the evidence visible.</div>
 <section id="practice"><div class="head"><div><span class="label">Core class practice</span><h2>Build Stronger Technical Descriptions</h2></div><p>Try each activity first. Then use <strong>Fill solution</strong> to compare.</p></div>
 <div class="core-banner"><strong>Core today:</strong> vague → precise → quantified → objective → correctly tensed. Extra drills are kept at the end so the main lesson stays focused.</div>
 
@@ -155,6 +188,13 @@
 <div class="table-scroll"><table><tr><th>Time</th><th>Efficiency</th></tr><tr><td>0 h</td><td>60%</td></tr><tr><td>5 h</td><td>67%</td></tr><tr><td>10 h</td><td>74%</td></tr><tr><td>15 h</td><td>82%</td></tr><tr><td>20 h</td><td>90%</td></tr></table></div>
 <p>Choose <strong>slight / sharp / steady / gradual</strong> and justify your choice.</p><input type="text" placeholder="Descriptor + reason">
 <div class="solution-controls"><button class="solution-btn" onclick="fillSolution('trend')" type="button">Fill solution</button><button class="clear-btn" onclick="clearSolution('trend')" type="button">Clear</button></div><div class="answer-status" id="status-trend"></div></div>
+
+<div class="task" id="sol-f" style="margin-top:14px"><h3>Activity F — Make the Sentence More Informative</h3><p>For each sentence, add the missing descriptive information.</p><ol>
+<li>The motor became hot. <input type="text" placeholder="Add temperature + operating condition"></li>
+<li>The battery discharged quickly. <input type="text" placeholder="Add start/end value + time"></li>
+<li>The proposed method reduced distortion. <input type="text" placeholder="Add the metric + numerical comparison"></li>
+<li>The communication link was unstable. <input type="text" placeholder="Add observable evidence"></li>
+</ol><div class="solution-controls"><button class="solution-btn" onclick="fillSolution('f')" type="button">Fill models</button><button class="clear-btn" onclick="clearSolution('f')" type="button">Clear</button></div><div class="answer-status" id="status-f"></div></div>
 </section>
 
 <section id="group"><div class="head"><div><span class="label">Interactive group activity</span><h2>Battery Voltage over a 10-Hour Cycling Test</h2></div><p>This is adapted directly from the source lecture.</p></div>
@@ -247,6 +287,12 @@ const solutionMap={
  ]},
  trend:{text:[
   'gradual / steady — the efficiency rises across the full 20-hour period in a sustained sequence rather than in one sudden jump'
+ ]},
+ f:{text:[
+  'The motor winding temperature increased from 42°C to 78°C after 20 minutes at rated load.',
+  'Battery state of charge decreased from 90% to 35% within 45 minutes under a 2C discharge rate.',
+  'The proposed method reduced total harmonic distortion from 8.6% to 3.1% relative to the baseline controller.',
+  'Packet loss increased from 0.8% to 7.4% when the link distance exceeded 25 m.'
  ]},
  group:{text:[
   'Battery voltage decreased gradually from 4.2 V to 3.8 V during the first five hours. It then dropped sharply to 3.2 V between 5 and 7 hours and reached 3.0 V at 8 hours. From 8 to 10 hours, the voltage remained steady at 3.0 V.'
