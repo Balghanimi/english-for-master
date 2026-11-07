@@ -6,35 +6,411 @@
 <meta name="theme-color" content="#123f2d">
 <meta name="description" content="Week 6 postgraduate Academic English lecture: Describing Graphs and Charts II — comparison, interpretation, calibrated claims, evaluating data quality, linking to literature, and Quiz 1 for MSc Electrical Engineering.">
 <title>Week 6 | Describing Graphs & Charts II | English for Master</title>
+<script>document.documentElement.classList.add('js')</script>
 <style>
-:root{--dg:#123f2d;--g:#1f6b4a;--b:#276f97;--gold:#c6a15b;--ink:#17231d;--ivory:#fbfaf4;--paper:#fff;--line:#d8e0da;--soft:#eef5f0;--softb:#edf5f9;--softg:#fff6d9;--muted:#66716b;--red:#934b3b;--purple:#65507c;--shadow:0 8px 30px rgba(20,50,35,.08)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#edf2ee;color:var(--ink);font:16px/1.62 Arial,"Helvetica Neue",sans-serif}.wrap{max-width:1240px;margin:auto;padding:24px}.site{background:var(--ivory);box-shadow:var(--shadow);border:1px solid #d8dfd9}.hero{padding:52px 56px 46px;background:linear-gradient(135deg,var(--dg),#1c5c42);color:white;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:260px;height:260px;border:38px solid rgba(198,161,91,.12);border-radius:50%;right:-60px;top:-82px}.ey{font-size:13px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:#d8eadf}.hero h1{font-size:64px;line-height:1;margin:18px 0 10px;font-family:Georgia,serif}.hero .deck{font-size:22px;max-width:850px;color:#edf6f0}.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px;position:relative;z-index:2}.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.4);background:white;color:var(--dg);padding:10px 14px;border-radius:9px;font-weight:800;text-decoration:none;cursor:pointer}.btn.alt{background:transparent;color:white}.btn.gold{background:var(--gold);border-color:var(--gold);color:#30230c}.nav{position:sticky;top:0;z-index:30;display:flex;gap:4px;overflow:auto;padding:9px 18px;background:white;border-bottom:1px solid var(--line);box-shadow:0 3px 14px rgba(20,50,35,.06)}.nav a{white-space:nowrap;text-decoration:none;color:var(--dg);font-size:13px;font-weight:800;padding:8px 9px;border-radius:6px}.nav a:hover{background:var(--soft)}main{padding:0 50px 50px}section{padding:46px 0;border-bottom:1px solid var(--line)}section:last-of-type{border-bottom:0}.head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:23px}.head h2{font:700 34px/1.15 Georgia,serif;margin:5px 0 0;color:var(--dg)}.head p{max-width:520px;color:var(--muted);margin:0}.label{font-size:11px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;color:var(--b)}.source,.note,.warning,.bridge{padding:15px 17px;border-radius:11px;border:1px solid #b7ccbd;background:#f4faf6}.warning{background:#fff8e8;border-color:#dbc68e}.note{background:var(--softb);border-color:#b6d0dd}.bridge{border-left:6px solid var(--g)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.card{background:#fff;border:1px solid var(--line);border-radius:13px;padding:17px}.card h3{margin:0 0 7px;color:var(--dg)}.card p:last-child{margin-bottom:0}.keyterm{background:#fff1a8;border-radius:4px;padding:1px 4px;font-weight:900;color:#3e3213}.keyverb{background:#e8f4ec;border-bottom:2px solid var(--g);border-radius:3px;padding:0 3px;font-weight:900;color:#164b35}.keynum{background:#eef5f8;border-bottom:2px solid var(--b);border-radius:3px;padding:0 3px;font-weight:900;color:#184a68}.keyvar{background:#f0eaf7;border-bottom:2px solid var(--purple);border-radius:3px;padding:0 3px;font-weight:900;color:#503d62}.legend-note{font-size:12px;color:var(--muted)}.memory{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden}.memory div{background:#fff;padding:19px}.memory b{display:block;color:var(--dg);font-size:16px;margin-bottom:5px}.table-scroll{overflow:auto;border-radius:11px;border:1px solid var(--line)}table{width:100%;border-collapse:collapse;background:white;min-width:620px}th{background:var(--dg);color:#fff;text-align:left}th,td{padding:11px 13px;border-bottom:1px solid var(--line);vertical-align:top}tr:last-child td{border-bottom:0}tbody tr:nth-child(even){background:#f8faf8}.svgbox{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;overflow:auto}.svgbox svg{width:100%;min-width:440px;height:auto;display:block}.figure-card{background:#fff;border:1px solid var(--line);border-top:5px solid var(--g);border-radius:14px;padding:19px;margin-top:18px}.figure-card h3{font:700 25px Georgia,serif;color:var(--dg);margin:0 0 6px}.task{background:#fff;border:1px solid var(--line);border-radius:13px;padding:18px;margin-top:14px}.task h3{margin-top:0;color:var(--dg)}input[type=text],textarea,select{width:100%;border:1.5px solid #b9c7bd;border-radius:8px;padding:9px 10px;font:inherit;background:#fff;margin-top:7px}textarea{min-height:90px;resize:vertical}.controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.solution,.clear,.checkbtn{border:1.5px solid var(--g);border-radius:8px;padding:8px 11px;font-weight:900;cursor:pointer}.solution,.checkbtn{background:var(--g);color:#fff}.clear{background:#fff;color:var(--g)}.filled{background:#eef8f2!important;border-color:#72a686!important}.status{font-size:13px;font-weight:800;color:var(--g);margin-top:8px}.badgood{display:grid;grid-template-columns:1fr 1fr;gap:12px}.bad,.good{padding:16px;border-radius:12px;border:1px solid var(--line)}.bad{background:#fff7f2;border-top:5px solid #a45d49}.good{background:#f3faf5;border-top:5px solid var(--g)}.tags{display:flex;flex-wrap:wrap;gap:7px}.tag{padding:5px 9px;border-radius:999px;background:var(--soft);border:1px solid #c4d5c9;font-size:12px;font-weight:800}.wordbank{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.wordbank .card ul{margin:6px 0 0;padding-left:19px}.collocation{padding:12px 14px;border-radius:9px;background:#fff;border:1px dashed #a6bdad;margin-top:9px}.grammarbox{border:2px solid #b8cbbd;border-radius:13px;background:#fff;padding:18px}.quizq{padding:15px 0;border-bottom:1px solid var(--line)}.quizq:last-child{border-bottom:0}.quizq label{display:block;margin:7px 0}.score{margin-top:12px;padding:12px;border-radius:9px;background:var(--soft);font-weight:900;color:var(--dg)}.peer{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}.peer div{background:white;padding:9px}.peer .h{font-weight:900;background:var(--soft)}.resources{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.resource{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px}.resource a{color:var(--b);font-weight:900}.week6{display:grid;grid-template-columns:1fr 1fr;border-radius:13px;overflow:hidden}.week6 div{padding:24px;background:var(--dg);color:white}.week6 div+div{background:var(--b)}.week6 h3{font:700 25px Georgia,serif;margin:5px 0}.completion{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:30px;padding:20px;border-radius:13px;background:#eaf4ed;border:1px solid #b8d0c0}.completebtn{border:0;border-radius:9px;background:var(--g);color:#fff;padding:11px 14px;font-weight:900;cursor:pointer}.completebtn.done{background:var(--b)}footer{padding:32px 50px;background:var(--dg);color:#eaf3ed}.small{font-size:13px;color:var(--muted)}.calc{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f7f8f5;padding:10px 12px;border-radius:8px;border:1px solid var(--line)}.vocab-scale{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.vocab-scale div{border:1px solid var(--line);background:#fff;border-radius:10px;padding:14px}.vocab-scale b{display:block;color:var(--dg);margin-bottom:6px}.mini-chart{height:70px;margin-top:10px}.rhetorical{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.rhetorical>div{padding:16px;border:1px solid var(--line);border-radius:12px;background:#fff}.rhetorical b{display:block;color:var(--dg);margin-bottom:7px}section[id]{scroll-margin-top:64px}.time{display:inline-block;font-size:11px;font-weight:900;padding:3px 8px;border-radius:999px;background:var(--softg);border:1px solid #dbc68e;color:#5a4410;margin-left:6px;vertical-align:middle}.tier{display:inline-block;font-size:10.5px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:5px;background:var(--softb);color:#184a68;margin-right:6px;vertical-align:middle}.tier.res{background:var(--soft);color:var(--dg)}details.model{margin-top:12px;border:1.5px solid var(--g);border-radius:10px;background:#f3faf5}details.model summary{cursor:pointer;font-weight:900;color:var(--g);padding:9px 12px}details.model .mbody{padding:2px 14px 12px}details.model .mbody p:last-child,details.model .mbody ul:last-child{margin-bottom:0}.pad{padding:14px 16px}
-@media(max-width:900px){.grid{grid-template-columns:1fr}.vocab-scale.three{grid-template-columns:1fr}.grid4,.wordbank,.vocab-scale{grid-template-columns:1fr 1fr}.grid3,.rhetorical{grid-template-columns:1fr 1fr}.memory{grid-template-columns:1fr 1fr}.head{display:block}.head p{margin-top:8px}.resources{grid-template-columns:1fr}}
-@media(max-width:680px){.wrap{padding:0}.site{border:0}.hero{padding:38px 22px}.hero h1{font-size:48px}main{padding:0 20px 35px}.grid,.grid3,.grid4,.badgood,.week6,.wordbank,.vocab-scale,.rhetorical{grid-template-columns:1fr}.memory{grid-template-columns:1fr}.nav{top:0}footer{padding:28px 20px}.peer{font-size:13px}}
-@media print{body{background:#fff}.wrap{max-width:none;padding:0}.site{border:0;box-shadow:none}.nav,.actions,.controls,.completion{display:none!important}.hero{padding:30px;background:var(--dg)!important}.hero h1{font-size:42px}main{padding:0 25px}section{padding:25px 0;break-inside:auto}.grammarbox,.note,.warning,.bad,details,fieldset.qpart,.peer{break-inside:avoid}.figure-card{break-inside:auto}.fig-keep{break-inside:avoid}h2,h3{break-after:avoid}table{min-width:0}.ways table{min-width:0}.ways th.sl{white-space:normal}.table-scroll{overflow:visible}tr{break-inside:avoid}.svgbox{overflow:visible}.svgbox svg{min-width:0}main{padding-bottom:0!important}footer{padding:12px 25px;break-before:avoid}.resources{gap:6px}.resources>*{padding:6px 12px!important;margin:0!important}.resources p,.resources h3{margin:2px 0!important}footer{font-size:11px;line-height:1.3}@page{margin:11mm}body{font-size:13px;line-height:1.45}.head h2{font-size:25px}.head{margin-bottom:12px;break-after:avoid}section{padding:16px 0!important}.hero{padding:22px!important}.figure-card{padding:12px;margin-top:10px}.card,.task,.grammarbox{padding:11px}.svgbox{padding:8px}.svgbox svg{max-width:500px;margin:0 auto}th,td{padding:6px 9px}.label,.figure-card>.label{break-after:avoid;display:block}.figure-card>.label+h3,.figure-card>.label+*{break-before:avoid}.figure-card h3+*{break-before:avoid}.figure-card h3{font-size:19px;break-after:avoid}.kw-legend{margin-bottom:8px;padding:7px 10px}.memory div{padding:11px}.vocab-scale div{padding:10px}th,.ways tr.sit th,footer,.hero,.kw-up,.kw-down,.kw-flat,.kw-deg,.kw-cmp,.kw-int,.kw-eval,.kw-lim,.btn.gold{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
-.kw-up,.kw-down,.kw-flat,.kw-deg,.kw-cmp{font-weight:800;padding:0 3px;border-radius:4px;border-bottom:2px solid;white-space:normal}.kw-up{background:#dcf2e3;color:#0b4527;border-color:#2e8b57}.kw-down{background:#fbe2dc;color:#7a2616;border-color:#c0583f;border-bottom-style:dashed}.kw-flat{background:#e2e9f1;color:#263b52;border-color:#5b7fa5;border-bottom-style:dotted}.kw-deg{background:#fdebc2;color:#583800;border-color:#d39a1c}.kw-cmp{background:#ebe3f5;color:#472f62;border-color:#8a6aae;border-bottom-style:double}.kw-legend{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin:0 0 16px;padding:11px 14px;border:1px solid var(--line);border-radius:11px;background:#fff;font-size:14px}.kw-legend b.lt{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--b)}.kw-legend span.i{display:inline-flex;gap:6px;align-items:center;flex-wrap:wrap}.ways table{min-width:680px}
-.kw-int{font-weight:800;padding:0 3px;border-radius:4px;border-bottom:3px solid #c2407f;background:#f9deea;color:#6b1740;white-space:normal}
-.sr-only{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.kw-eval,.kw-lim{font-weight:800;padding:0 3px;border-radius:4px;white-space:normal}.kw-eval{background:#d6eeee;color:#0b4f55;border-bottom:3px dashed #0e7c86}.kw-lim{background:#ebe5dc;color:#4a3720;border-bottom:3px dotted #7a5a2e}tbody th{background:#f4faf6;color:var(--dg);font-weight:800;text-align:left;padding:11px 13px;border-bottom:1px solid var(--line);vertical-align:top}tbody tr:last-child th{border-bottom:0}.ways tbody th.sl{width:190px;white-space:nowrap}.ways tbody tr.sit th{background:var(--dg);color:#fff;font-weight:900;white-space:normal;width:auto}.ways tr.sit th small{font-weight:400;color:#d8eadf}caption{text-align:left;font-weight:800}fieldset{min-width:0}fieldset.qpart{border:1.5px solid var(--line);border-radius:12px;padding:12px 16px 14px;margin:14px 0}fieldset.qpart>legend{font-weight:900;color:var(--dg);padding:0 8px}fieldset.quizq{border:0;border-bottom:1px solid var(--line);border-radius:0;padding:12px 0;margin:0}fieldset.quizq>legend{font-weight:700;padding:0;float:none}.vocab-scale.three{grid-template-columns:repeat(3,1fr)}.fig-keep{margin-top:0}.svgbox svg text{font-family:Arial,Helvetica,sans-serif}.warning.big{border-width:2px;border-color:#934b3b;background:#fff1ec}@media(max-width:900px){.vocab-scale.three{grid-template-columns:1fr}}
-.move-path .card{border-top:4px solid var(--g);break-inside:avoid}.move-number{display:block;font-size:11px;letter-spacing:.07em;text-transform:uppercase;font-weight:900;color:var(--b);margin-bottom:7px}.move-path a{color:var(--dg);text-decoration:none}.move-path a:hover,.move-path a:focus{text-decoration:underline}.move-next{margin:20px 0 0;border-left:4px solid var(--g);padding:12px 15px;background:var(--soft);border-radius:0 9px 9px 0}.move-next a{font-weight:800;color:var(--dg)}.memory-map{line-height:1.6}@media print{.move-next{display:none}.move-path{gap:7px}.move-path .card{padding:9px}}
+/* ===== Week 6 · classroom redesign ===== */
+:root{
+  --brand:#123f2d;--brand-2:#1f6b4a;--accent:#276f97;--gold:#c6a15b;--red:#934b3b;--purple:#65507c;
+  --ink:#17231d;--ink-2:#36443c;--muted:#56625b;
+  --bg:#f3f5f2;--paper:#fff;--ivory:#fbfaf6;--line:#dbe3dd;--line-2:#c4d2c8;
+  --soft:#eef5f0;--softb:#edf5f9;--softg:#fff6d9;
+  --radius:14px;--shadow:0 1px 2px rgba(18,63,45,.05),0 6px 24px rgba(18,63,45,.06);
+  --nav-h:56px;--measure:72ch;
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 var(--sans)}
+img,svg{max-width:100%}
+a{color:var(--accent)}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid #1b6fa8;outline-offset:2px;border-radius:4px}
+.skip{position:absolute;left:12px;top:-60px;z-index:100;background:#fff;color:var(--brand);padding:10px 14px;border-radius:8px;font-weight:800;box-shadow:var(--shadow)}
+.skip:focus{top:12px}
+.sr-only{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+h1,h2,h3,h4{line-height:1.2}
+p,li{max-width:var(--measure)}
+.small{font-size:14.5px;color:var(--muted)}
+
+/* ----- hero ----- */
+.hero{background:var(--brand);color:#fff}
+.hero-inner{max-width:1240px;margin:auto;padding:28px 32px 34px}
+.crumbs{margin:0 0 18px;font-size:14.5px;display:flex;flex-wrap:wrap;gap:4px 14px}
+.crumbs a{color:#d9ebe0;text-decoration:none;font-weight:700}
+.crumbs a:hover{text-decoration:underline}
+.ey{margin:0;font-size:12.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#cfe3d6}
+.hero h1{font:700 48px/1.05 var(--serif);margin:10px 0 8px}
+.hero .deck{font-size:19px;line-height:1.55;max-width:62ch;color:#eaf4ee;margin:0}
+.hero .deck strong{display:block;font:700 24px/1.3 var(--serif);color:#fff;margin-bottom:4px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.btn{display:inline-flex;align-items:center;gap:6px;min-height:44px;border:1.5px solid rgba(255,255,255,.55);background:transparent;color:#fff;padding:9px 16px;border-radius:10px;font:700 15.5px/1.2 var(--sans);text-decoration:none;cursor:pointer}
+.btn:hover{background:rgba(255,255,255,.1)}
+.btn.primary{background:#fff;color:var(--brand);border-color:#fff}
+.btn.primary:hover{background:#e9f3ed}
+
+/* ----- top navigation ----- */
+.nav{position:sticky;top:0;z-index:40;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 2px 10px rgba(18,63,45,.05)}
+.nav-inner{max-width:1240px;margin:auto;display:flex;align-items:center;gap:6px;padding:0 20px;min-height:var(--nav-h)}
+.nav a{text-decoration:none;color:var(--brand);font-weight:700;font-size:15px}
+.nav-home{padding:8px 10px;border-radius:8px;white-space:nowrap;margin-right:8px;border-right:1px solid var(--line);border-radius:0;padding-right:14px}
+.nav ul{list-style:none;margin:0;padding:0;display:flex;gap:2px;flex-wrap:wrap}
+.nav li{max-width:none}
+.nav ul a{display:block;padding:8px 11px;border-radius:8px;white-space:nowrap}
+.nav ul a:hover{background:var(--soft)}
+.nav ul a[aria-current="true"]{background:var(--brand);color:#fff}
+.nav-toggle{display:none;margin-left:auto;align-items:center;gap:8px;min-height:44px;padding:8px 14px;border:1.5px solid var(--line-2);border-radius:10px;background:#fff;color:var(--brand);font:700 15px var(--sans);cursor:pointer}
+@media (max-width:1099.98px){
+  .js .nav-toggle{display:inline-flex}
+  .js .nav ul{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 12px 24px rgba(18,63,45,.12);padding:8px 16px 14px;flex-direction:column;max-height:calc(100vh - var(--nav-h));overflow:auto}
+  .js .nav.open ul{display:flex}
+  .js .nav ul a{padding:12px 12px;font-size:16px}
+  html:not(.js) .nav ul{flex-wrap:nowrap;overflow:auto}
+}
+
+/* ----- page layout ----- */
+main{max-width:1240px;margin:auto;padding:8px 32px 48px}
+section{padding:44px 0;border-bottom:1px solid var(--line)}
+section[id],[id].step,#roadmap,#six-together{scroll-margin-top:calc(var(--nav-h) + 12px)}
+.head{display:block;margin-bottom:22px}
+.head h2{font:700 32px/1.18 var(--serif);margin:6px 0 0;color:var(--brand)}
+.head p{max-width:var(--measure);color:var(--ink-2);margin:10px 0 0;font-size:17.5px}
+.label{display:block;font-size:12.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.label .time{letter-spacing:.02em}
+.time{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.02em;text-transform:none;padding:2px 9px;border-radius:999px;background:var(--softg);border:1px solid #dbc68e;color:#5a4410;margin-left:6px;vertical-align:middle}
+.tier{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:5px;background:var(--softb);color:#184a68;margin-right:8px;vertical-align:middle}
+.tier.res{background:var(--soft);color:var(--brand)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card,.task,.grammarbox,.resource{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:20px}
+.card h3,.task h3,.grammarbox h3,.resource h3{margin:0 0 8px;color:var(--brand);font-size:18.5px}
+.card p:last-child,.grammarbox p:last-child,.grammarbox ul:last-child{margin-bottom:0}
+.task{margin-top:16px}
+.task>h3{font-size:20px}
+.task h3 .time{margin-left:8px}
+.bridge,.note,.warning{padding:16px 18px;border-radius:12px;border:1px solid var(--line);background:var(--paper)}
+.bridge{border-left:5px solid var(--brand-2);background:#f4faf6}
+.note{border-left:5px solid var(--accent);background:#f5f9fb}
+.warning{border-left:5px solid #b08a2a;background:#fffaf0}
+.warning.big{border-left-color:var(--red);background:#fff4ef}
+.bad,.good{padding:16px 18px;border-radius:12px;border:1px solid var(--line)}
+.bad{background:#fff8f4;border-left:5px solid #a45d49}
+.good{background:#f3faf5;border-left:5px solid var(--brand-2)}
+.bad p{margin:0}
+ul,ol{padding-left:22px}
+li{margin:4px 0}
+
+/* ----- start ----- */
+.start-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.start-grid>div{margin:0!important}
+#outcomes .grid3 .card{padding:18px 18px 16px}
+#outcomes .card h3{font:700 19px var(--serif)}
+#outcomes .card p{margin:0 0 8px}
+#outcomes .card p.small{margin:0;padding-top:8px;border-top:1px dashed var(--line);font-size:13.5px}
+
+/* ----- the six-move lesson ----- */
+.fw-intro{display:grid;grid-template-columns:1fr;gap:12px}
+.stepnav{margin:26px 0 0;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:14px 14px 12px;box-shadow:var(--shadow)}
+.stepnav-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin:0 4px 10px}
+.stepnav-head p{margin:0;font-size:14.5px;color:var(--muted)}
+.stepnav-head strong{color:var(--brand)}
+.steptabs{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,4fr);gap:10px}
+.phase{display:flex;flex-direction:column;gap:6px}
+.phase-label{font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding-left:4px}
+.phase-tabs{display:grid;gap:6px}
+.phase.res .phase-tabs{grid-template-columns:repeat(2,1fr)}
+.phase.dis .phase-tabs{grid-template-columns:repeat(4,1fr)}
+.steptab{display:flex;align-items:center;gap:9px;min-height:52px;padding:8px 10px;border:1.5px solid var(--line);border-radius:10px;background:var(--ivory);color:var(--ink);text-decoration:none;font-weight:700;font-size:14.5px;line-height:1.25}
+.steptab:hover{border-color:var(--line-2);background:#fff}
+.steptab .n{flex:none;display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#e3ebe5;color:var(--brand);font-weight:800;font-size:14px}
+.steptab[aria-selected="true"]{background:var(--brand);border-color:var(--brand);color:#fff}
+.steptab[aria-selected="true"] .n{background:#fff;color:var(--brand)}
+.steptab.done .n{background:var(--brand-2);color:#fff}
+.progress{height:4px;background:#e3ebe5;border-radius:4px;margin:12px 4px 0;overflow:hidden}
+.progress span{display:block;height:100%;width:16.67%;background:var(--brand-2);border-radius:4px;transition:width .25s ease}
+.keyhint{font-size:13px;color:var(--muted);margin:8px 4px 0}
+.keyhint kbd{font:700 12px var(--sans);border:1px solid var(--line-2);border-bottom-width:2px;border-radius:4px;padding:0 5px;background:#fff}
+html:not(.js) .stepnav .progress,html:not(.js) .keyhint{display:none}
+
+.lesson{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);gap:28px;margin-top:20px;align-items:start}
+.figpanel{position:sticky;top:calc(var(--nav-h) + 14px);background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px 12px;box-shadow:var(--shadow)}
+.figtabs{display:none;gap:6px;margin-bottom:10px;flex-wrap:wrap}
+.js .figtabs{display:flex}
+.figtab{min-height:40px;padding:6px 14px;border:1.5px solid var(--line);border-radius:999px;background:#fff;color:var(--brand);font:700 14px var(--sans);cursor:pointer}
+.figtab[aria-selected="true"]{background:var(--soft);border-color:var(--brand-2)}
+.fig{margin:0}
+.js .fig[hidden]{display:none}
+html:not(.js) .fig+.fig{margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}
+.fig-title{margin:0 0 2px;font:700 18px/1.3 var(--serif);color:var(--brand)}
+.fig-title .small{font-family:var(--sans);font-weight:400;font-size:13.5px}
+.fig .label{font-size:11.5px}
+.svgbox{margin-top:8px}
+.svgbox svg{display:block;width:100%;height:auto}
+.svgbox svg text{font-family:Arial,Helvetica,sans-serif}
+.fig-caption{font-size:13.5px;color:var(--muted);margin:6px 0 0}
+.fig details{margin-top:8px}
+.ov [class^="ov-s"],.ov [class*=" ov-s"]{display:none}
+.lesson[data-step="1"] .ov .ov-s1,.lesson[data-step="2"] .ov .ov-s2,.lesson[data-step="3"] .ov .ov-s3,
+.lesson[data-step="4"] .ov .ov-s4,.lesson[data-step="5"] .ov .ov-s5,.lesson[data-step="6"] .ov .ov-s6{display:inline}
+
+.steps{min-width:0}
+.step{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:26px 28px 22px;box-shadow:var(--shadow)}
+html:not(.js) .step+.step{margin-top:20px}
+.step:focus{outline:none}
+.step-kicker{margin:0;font-size:12.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.step-kicker .phase-chip{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;font-size:11.5px;letter-spacing:.06em;background:var(--soft);color:var(--brand)}
+.step-kicker .phase-chip.dis{background:#f1ecf6;color:#4d3a62}
+.step-title{font:700 34px/1.1 var(--serif);color:var(--brand);margin:6px 0 14px}
+.step-q{margin:0;font:600 22px/1.4 var(--serif);color:var(--ink)}
+.step-q span{display:block;margin-top:4px;font:400 16.5px/1.5 var(--sans);color:var(--ink-2)}
+.fig-slot:empty{display:none}
+.fig-slot{margin-top:16px}
+.fig-slot .figpanel{position:static;box-shadow:none}
+.model{margin:20px 0 0;padding:16px 18px;border-radius:12px;background:#f4faf6;border:1px solid #cfe1d5;border-left:5px solid var(--brand-2)}
+.model-label{display:block;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--brand-2);margin-bottom:6px}
+.model p{margin:0;font-size:18px;line-height:1.6;max-width:none}
+.expl{margin:16px 0 0;color:var(--ink-2)}
+.expl strong{color:var(--ink)}
+.step .warning{margin-top:14px}
+details.deep{margin-top:18px;border:1px solid var(--line);border-radius:12px;background:var(--ivory)}
+details.deep>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:10px;padding:12px 16px;font-weight:800;color:var(--brand);min-height:48px}
+details.deep>summary::-webkit-details-marker{display:none}
+details.deep>summary::before{content:"";flex:none;width:9px;height:9px;border-right:2.5px solid currentColor;border-bottom:2.5px solid currentColor;transform:rotate(-45deg);transition:transform .15s}
+details.deep[open]>summary::before{transform:rotate(45deg)}
+details.deep>summary .opt{margin-left:auto;font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+details.deep>.deep-body{padding:2px 16px 18px;border-top:1px solid var(--line)}
+details.deep .deep-body>*:first-child{margin-top:14px!important}
+details.deep .deep-body>*+*{margin-top:14px}
+details.deep .deep-body .grid{grid-template-columns:1fr}
+.stepfoot{display:flex;justify-content:space-between;gap:12px;margin-top:22px;padding-top:16px;border-top:1px solid var(--line)}
+.stepbtn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:10px 16px;border-radius:10px;border:1.5px solid var(--brand);background:#fff;color:var(--brand);font:700 15.5px/1.2 var(--sans);text-decoration:none;cursor:pointer}
+.stepbtn.next{background:var(--brand);color:#fff;margin-left:auto}
+.stepbtn:hover{filter:brightness(1.08)}
+.stepbtn[aria-disabled="true"]{visibility:hidden}
+html:not(.js) .stepfoot{display:none}
+
+.together{margin-top:30px}
+.together h3{font:700 24px var(--serif);color:var(--brand);margin:0 0 6px}
+.together>p{margin:0 0 14px;color:var(--ink-2)}
+.mnemonic{margin-top:28px;padding:18px 20px;border:1px dashed var(--line-2);border-radius:var(--radius);background:transparent}
+.mnemonic .tagline{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+.mnemonic h3{margin:0;font:700 19px var(--serif);color:var(--ink-2)}
+.mnemonic .tag{font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line-2);border-radius:999px;padding:1px 9px}
+.mnemonic>p{margin:6px 0 12px;color:var(--muted);font-size:15px}
+.memory{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.memory div{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:15px;color:var(--ink-2)}
+.memory b{display:block;color:var(--ink-2);font-size:14px;letter-spacing:.06em;margin-bottom:3px}
+.mnemonic .note{margin-top:12px!important;font-size:15px;background:transparent;border:0;padding:0}
+
+/* ----- tables ----- */
+.table-scroll{overflow:auto;border-radius:12px;border:1px solid var(--line);background:#fff}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:15.5px;line-height:1.55}
+th{background:var(--brand);color:#fff;text-align:left;font-weight:700}
+th,td{padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody th{background:#f4f8f5;color:var(--brand);font-weight:800}
+tbody tr:last-child td,tbody tr:last-child th{border-bottom:0}
+caption{text-align:left;font-weight:800}
+.ways tbody tr.sit th{background:#e6efe9;color:var(--brand);font-weight:800}
+.ways tr.sit th small{font-weight:500;color:var(--ink-2)}
+.ways tbody th.sl{width:200px}
+.table-scroll.data table{font-variant-numeric:tabular-nums}
+.table-scroll.data td{text-align:right}
+.table-scroll.data thead th:not(:first-child){text-align:right}
+.table-scroll.data th,.table-scroll.data td{padding:8px 10px}
+
+/* ----- colour-coded language (kept, softened) ----- */
+.kw-up,.kw-down,.kw-flat,.kw-deg,.kw-cmp,.kw-int,.kw-eval,.kw-lim{font-weight:700;padding:0 3px;border-radius:4px;border-bottom:2px solid;white-space:normal}
+.kw-up{background:#e3f4e8;color:#0b4527;border-color:#2e8b57}
+.kw-down{background:#fbe8e3;color:#7a2616;border-color:#c0583f;border-bottom-style:dashed}
+.kw-flat{background:#e8eef4;color:#263b52;border-color:#5b7fa5;border-bottom-style:dotted}
+.kw-deg{background:#fdf0d2;color:#583800;border-color:#d39a1c}
+.kw-cmp{background:#efe9f6;color:#472f62;border-color:#8a6aae;border-bottom-style:double;border-bottom-width:3px}
+.kw-int{background:#fae6ef;color:#6b1740;border-color:#c2407f;border-bottom-width:3px}
+.kw-eval{background:#ddf0f0;color:#0b4f55;border-color:#0e7c86;border-bottom:3px dashed #0e7c86}
+.kw-lim{background:#efeae3;color:#4a3720;border-bottom:3px dotted #7a5a2e}
+.kw-legend{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:11px;background:#fff;font-size:14.5px}
+.kw-legend b.lt{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);width:100%}
+.kw-legend span.i{display:inline-flex;gap:6px;align-items:center;flex-wrap:wrap}
+
+/* ----- activities, models, quiz ----- */
+input[type=text],textarea,select{width:100%;border:1.5px solid #9fb2a5;border-radius:9px;padding:10px 12px;font:inherit;font-size:16px;background:#fff;margin-top:8px;color:var(--ink)}
+textarea{min-height:100px;resize:vertical}
+input[type=text]:focus,textarea:focus{border-color:var(--accent)}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.solution,.clear,.checkbtn{min-height:44px;border:1.5px solid var(--brand-2);border-radius:9px;padding:9px 14px;font:800 15px var(--sans);cursor:pointer}
+.solution,.checkbtn{background:var(--brand-2);color:#fff}
+.clear{background:#fff;color:var(--brand-2)}
+.filled{background:#eef8f2!important;border-color:#72a686!important}
+.status{font-size:14px;font-weight:700;color:var(--brand-2);margin-top:8px}
+details.model{margin-top:14px;border:1.5px solid #9cc3aa;border-radius:10px;background:#f6fbf8}
+details.model summary{cursor:pointer;font-weight:800;color:var(--brand-2);padding:11px 14px;min-height:44px}
+details.model .mbody{padding:2px 16px 14px}
+details.model .mbody p:last-child,details.model .mbody ul:last-child{margin-bottom:0}
+.vocab-scale{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+.vocab-scale div{border:1px solid var(--line);background:#fff;border-radius:12px;padding:16px;border-top:4px solid var(--brand-2)}
+.vocab-scale div:nth-child(2){border-top-color:var(--accent)}
+.vocab-scale div:nth-child(3){border-top-color:var(--gold)}
+.vocab-scale b{display:block;color:var(--brand);margin-bottom:6px}
+#strength .kw-legend{margin-bottom:0}
+#strength .head[style]{margin-top:36px!important}
+#strength .head h2{font-size:26px}
+fieldset{min-width:0}
+fieldset.qpart{border:1.5px solid var(--line);border-radius:12px;padding:14px 18px 16px;margin:16px 0;background:#fff}
+fieldset.qpart>legend{font-weight:800;color:var(--brand);padding:0 8px}
+fieldset.quizq{border:0;border-bottom:1px solid var(--line);border-radius:0;padding:14px 0;margin:0}
+fieldset.quizq:last-child{border-bottom:0}
+fieldset.quizq>legend{font-weight:700;padding:0;float:none;margin-bottom:6px}
+fieldset.quizq label{display:flex;gap:10px;align-items:flex-start;margin:8px 0;padding:8px 10px;border-radius:8px;cursor:pointer}
+fieldset.quizq label:hover{background:var(--soft)}
+fieldset.quizq input{margin-top:6px;flex:none;width:18px;height:18px}
+#quiz1 .card{background:transparent;border:0;padding:0}
+.peer{display:grid;grid-template-columns:2fr repeat(3,minmax(56px,.5fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:15px}
+.peer div{background:#fff;padding:9px 10px}
+.peer .h{font-weight:800;background:var(--soft);color:var(--brand)}
+.resources{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.resource p{font-size:15.5px;color:var(--ink-2)}
+.resource a{font-weight:800}
+.week6{display:grid;grid-template-columns:1fr 1fr;border-radius:var(--radius);overflow:hidden}
+.week6 div{padding:24px;background:var(--brand);color:#fff}
+.week6 div+div{background:#1d5a7c}
+.week6 span{font-size:12.5px;font-weight:800;letter-spacing:.1em}
+.week6 h3{font:700 24px var(--serif);margin:5px 0}
+.week6 p{margin:0;color:#e6f0ea}
+.completion{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:32px;padding:20px;border-radius:var(--radius);background:#eaf4ed;border:1px solid #b8d0c0}
+.completebtn{min-height:44px;border:0;border-radius:10px;background:var(--brand-2);color:#fff;padding:11px 16px;font:800 15.5px var(--sans);cursor:pointer}
+.completebtn.done{background:#1d5a7c}
+footer{background:var(--brand);color:#eaf3ed;padding:28px 32px}
+footer>div{max-width:1240px;margin:auto}
+#homework>h3{font:700 22px var(--serif);color:var(--brand);margin:32px 0 12px}
+#variety details.deep{background:var(--paper)}
+.move-next{margin:22px 0 0;font-weight:700}
+.move-next a{color:var(--brand)}
+
+/* ----- responsive ----- */
+@media (max-width:1180px){.lesson{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:18px}.step{padding:20px 20px 18px}.figpanel{padding:12px 12px 10px}.step-title{font-size:30px}}
+@media (min-width:1024px) and (max-width:1180px){.svgbox svg text{font-size:16px}.svgbox svg .ov-box text{font-size:14px}}
+@media (max-width:1023.98px){
+  .lesson{display:block}
+  .steptabs{grid-template-columns:1fr}
+  .js .lesson>.figaside{display:none}
+  html:not(.js) .figpanel{position:static;margin-bottom:20px}
+  .resources{grid-template-columns:1fr 1fr}
+  .grid3{grid-template-columns:1fr 1fr}
+  .memory{grid-template-columns:1fr 1fr}
+}
+@media (max-width:767.98px){
+  body{font-size:16.5px}
+  .hero-inner{padding:20px 18px 26px}
+  .hero h1{font-size:40px}
+  .hero .deck{font-size:17px}.hero .deck strong{font-size:21px}
+  .nav-inner{padding:0 12px}
+  main{padding:0 16px 36px}
+  section{padding:34px 0}
+  .head h2{font-size:26px}
+  .grid,.grid3,.start-grid,.vocab-scale,.resources,.week6,.memory{grid-template-columns:1fr}
+  .steptabs{grid-template-columns:1fr}
+  .phase.dis .phase-tabs,.phase.res .phase-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .step{padding:18px 16px 16px;border-radius:12px}
+  .step-title{font-size:28px}
+  .step-q{font-size:20px}
+  .model p{font-size:17px}
+  .fig-slot .figpanel{padding:10px 8px 8px;margin:0 -8px}
+  .stepbtn{padding:10px 12px;font-size:15px}
+  .completion{flex-direction:column;align-items:flex-start}
+  footer{padding:24px 18px}
+  .peer{font-size:14px;grid-template-columns:minmax(0,1fr) repeat(3,52px)!important}
+  .peer div{padding:8px 7px;text-align:left}
+  .card,.task,.grammarbox,.resource{padding:16px}
+  /* wide language tables become stacked cards on phones */
+  .table-scroll:not(.data){border:0;background:transparent;overflow:visible}
+  .table-scroll:not(.data) table,.table-scroll:not(.data) tbody,.table-scroll:not(.data) tr,.table-scroll:not(.data) th,.table-scroll:not(.data) td{display:block;width:auto!important}
+  .table-scroll:not(.data) thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .table-scroll:not(.data) tbody tr{border:1px solid var(--line);border-radius:12px;margin-bottom:10px;background:#fff;overflow:hidden}
+  .table-scroll:not(.data) tbody tr.sit{border:0;background:transparent;margin:16px 0 8px}
+  .table-scroll:not(.data) tbody tr.sit th{background:transparent;padding:0 2px;border:0;font-size:15px}
+  .table-scroll:not(.data) tbody th{border-bottom:1px solid var(--line)}
+  .table-scroll:not(.data) td{border-bottom:1px dashed var(--line)}
+  .table-scroll:not(.data) td:last-child{border-bottom:0}
+  .table-scroll:not(.data) td[data-label]::before{content:attr(data-label);display:block;font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+  .table-scroll:not(.data) td[data-label=""]::before{display:none}
+  .table-scroll.data table{font-size:14px}
+  .table-scroll.data th,.table-scroll.data td{padding:7px 6px}
+  .table-scroll.data tbody th{font-size:13px}
+}
+@media (max-width:767.98px){
+  .ov-box{display:none}
+  .js #fig-annot{position:static!important;width:auto;height:auto;overflow:visible;clip:auto;white-space:normal;margin:10px 0 0;padding:10px 12px;border-radius:10px;background:#f4faf6;border:1px solid #cfe1d5;font-size:15px;color:var(--ink)}
+  .js #fig-annot::before{content:"On the graph: ";font-weight:800;color:var(--brand)}
+  .fig-slot{margin:16px -16px 0}
+  .fig-slot .figpanel{border:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0;padding:12px 8px 12px;margin:0}
+  .fig-slot .fig>.label,.fig-slot .fig-title,.fig-slot .fig-caption,.fig-slot .figtabs,.fig-slot details,.fig-slot #fig-annot{margin-left:8px;margin-right:8px}
+}
+@media (max-width:599.98px){
+  .svgbox svg text{font-size:21px}
+  .svgbox svg text[x="418"][y="76"]{font-size:15px}
+  #fig-3 svg text[fill="#66716b"]{font-size:15px}
+  .figtab{padding:6px 14px}
+  .ft-long{display:none}
+}
+
+/* ----- print: show every move and its detail; hide controls ----- */
+@media print{
+  body{background:#fff;font-size:12.5px;line-height:1.45}
+  .nav,.actions,.crumbs,.controls,.completion,.stepnav,.stepfoot,.figtabs,.keyhint,.skip{display:none!important}
+  .hero{background:var(--brand)!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .hero-inner{padding:16px 20px}.hero h1{font-size:34px}
+  main{padding:0 10px}
+  section{padding:14px 0;break-inside:auto}
+  .lesson{display:block!important}
+  .figpanel{position:static;box-shadow:none}
+  .fig[hidden]{display:block!important}
+  .step[hidden]{display:block!important}
+  .step{box-shadow:none;margin-top:12px;break-inside:auto}
+  .fig-slot{display:none}
+  .lesson .figaside{display:block!important}
+  .ov{display:none}
+  .table-scroll{overflow:visible}
+  th,.week6 div,footer,.kw-up,.kw-down,.kw-flat,.kw-deg,.kw-cmp,.kw-int,.kw-eval,.kw-lim{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  tr,.grammarbox,.note,.warning,.bad,fieldset.qpart,.peer,.model,.svgbox{break-inside:avoid}
+  h2,h3{break-after:avoid}
+  @page{margin:11mm}
+}
 </style>
 </head>
 <body>
-<div class="wrap"><div class="site">
-<header class="hero" id="top">
-<div class="ey">University of Kufa · Faculty of Engineering · Electrical Engineering Department · English for Master</div>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="hero" id="top"><div class="hero-inner">
+<p class="crumbs"><a href="/">← Dashboard</a><a href="/week05.html">← Week 5</a><a href="/syllabus.html">Syllabus</a></p>
+<p class="ey">University of Kufa · Faculty of Engineering · Electrical Engineering Department · English for Master</p>
 <h1>Week 6</h1>
 <p class="deck"><strong>Describing Graphs &amp; Charts II: Analysis and Evaluation</strong><br>From describing data to comparing, interpreting and evaluating it: the language of a thesis Results and Discussion, with calibrated claims. Includes Quiz 1.</p>
-<div class="actions"><a class="btn" href="/">← Dashboard</a><a class="btn alt" href="/week05.html">← Week 5</a><a class="btn" href="/syllabus.html">Syllabus</a><a class="btn alt" href="#connection">Week 5 Connection</a><a class="btn alt" href="#roadmap">Overview</a><a class="btn alt" href="#quiz1">Quiz 1</a><a class="btn alt" href="#homework">Thesis Homework</a><button class="btn gold" onclick="window.print()">Print / Save PDF</button></div>
-</header>
-<nav class="nav" aria-label="Page sections"><a href="/"><strong>← Home</strong></a><a href="#connection">Start</a><a href="#outcomes">Outcomes</a><a href="#roadmap">Six-Move Map</a><a href="#warmup">Warm-up</a><a href="#framework">Results vs Discussion</a><a href="#figures">1 · Observe</a><a href="#comparison">2 · Compare</a><a href="#interpretation">3 · Interpret</a><a href="#literature">4 · Explain</a><a href="#implication">5 · Implication</a><a href="#evaluation">6 · Limitations</a><a href="#strength">Writing Check</a><a href="#variety">Sentence Variety</a><a href="#practice">Practice</a><a href="#quiz1">Quiz 1</a><a href="#write">Activity F</a><a href="#homework">Homework</a><a href="#next">Week 7</a><a href="#resources">Resources</a></nav>
-<main>
+<div class="actions"><a class="btn primary" href="#roadmap">Start the six moves →</a><a class="btn" href="#connection">Week 5 Connection</a><a class="btn" href="#quiz1">Quiz 1</a><a class="btn" href="#homework">Thesis Homework</a><button class="btn" type="button" onclick="window.print()">Print / Save PDF</button></div>
+</div></header>
+
+<nav class="nav" id="sitenav" aria-label="Page sections"><div class="nav-inner">
+<a class="nav-home" href="/">← Home</a>
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navlist"><span>Sections</span><span class="nav-current" aria-hidden="true"></span><span aria-hidden="true">▾</span></button>
+<ul id="navlist">
+<li><a href="#connection">Start</a></li>
+<li><a href="#warmup">Warm-up</a></li>
+<li><a href="#framework">Six Moves</a></li>
+<li><a href="#strength">Claim Check</a></li>
+<li><a href="#practice">Practice</a></li>
+<li><a href="#quiz1">Quiz 1</a></li>
+<li><a href="#write">Activity F</a></li>
+<li><a href="#homework">Homework</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul>
+</div></nav>
+
+<main id="main">
 <section id="connection">
+<div class="head"><span class="label">Start here · Week 5 → Week 6</span><h2>From Describing Data to Discussing It</h2></div>
+<div class="start-grid">
 <div class="bridge"><strong>Connection to Week 5:</strong> Week 5 taught you to answer <em>“What does the data show?”</em> using accurate values, trends and comparisons. Week 6 asks <em>“What does it mean, and how strong is the evidence?”</em> You will compare conditions, interpret findings, connect them to research, and state implications and limitations. <strong>Match every claim to its evidence.</strong></div>
 <div class="note" style="margin-top:14px"><strong>Why this matters for your research:</strong> The <strong>Results</strong> section reports findings. The <strong>Discussion</strong> explains their meaning and limits. Unsupported claims and missing limitations weaken academic writing. Bring your <strong>Week 5 figure, caption, paragraph and revision log</strong> to improve them in the homework.</div>
-<div class="head" style="margin-top:20px"><div><span class="label">Memory rule</span><h2>Show → Compare → Interpret → Qualify</h2></div><p>Use these four steps when analysing a figure.</p></div>
-<div class="memory"><div><b>SHOW</b><span>Report the key values accurately (Week 5 skills).</span></div><div><b>COMPARE</b><span>Compare conditions; quantify gaps and identify crossovers.</span></div><div><b>INTERPRET</b><span>Explain what the pattern may mean; link it to evidence.</span></div><div><b>QUALIFY</b><span>State what follows, what remains uncertain and how strong the claim is.</span></div></div>
-
-<div class="note memory-map" style="margin-top:14px"><strong>One process, two ways to remember it:</strong> SHOW = Move 1 (Observation); COMPARE = Move 2; INTERPRET = Moves 3–5 (Meaning, Evidence, Implication); QUALIFY = Move 6 (Limitation). Check claim strength throughout. <strong>Follow the six numbered moves below.</strong></div>
+</div>
 </section>
 
 <section id="outcomes"><div class="head"><div><span class="label">Learning outcomes</span><h2>By the End of Week 6</h2></div><p>These are course learning outcomes, not the six writing moves. You will practise them in class or at home, then apply the six moves below.</p></div>
@@ -47,17 +423,6 @@
 <div class="card"><h3>Create</h3><p>Write a Results and Discussion paragraph (100–130 words in class; 180–250 at home) with correct tense, careful claims and a limitation.</p><p class="small">Practice: F, homework · Assessed: criteria 1–5</p></div>
 </div>
 </section>
-
-<section id="roadmap"><div class="head"><div><span class="label">Your six writing moves · follow in order</span><h2>The Six-Move Learning Path</h2></div><p>Moves 1–2 belong mainly to <strong>Results</strong>. Moves 3–6 build the <strong>Discussion</strong>. Select any move to open its lesson.</p></div>
-<div class="grid3 move-path">
-<div class="card"><span class="move-number">Move 1 of 6 · Results</span><h3><a href="#figures">Observe the data →</a></h3><p>What did we measure? Read the graph and report exact values and units.</p></div>
-<div class="card"><span class="move-number">Move 2 of 6 · Results</span><h3><a href="#comparison">Compare the results →</a></h3><p>Which value is higher? By how much? Does the difference change?</p></div>
-<div class="card"><span class="move-number">Move 3 of 6 · Discussion</span><h3><a href="#interpretation">Interpret the pattern →</a></h3><p>What might the results mean? Distinguish meaning from measurements.</p></div>
-<div class="card"><span class="move-number">Move 4 of 6 · Discussion</span><h3><a href="#literature">Explain with evidence →</a></h3><p>What might explain the pattern? Support the reason with data or research.</p></div>
-<div class="card"><span class="move-number">Move 5 of 6 · Discussion</span><h3><a href="#implication">State the implication →</a></h3><p>Why does the finding matter for an engineering system or application?</p></div>
-<div class="card"><span class="move-number">Move 6 of 6 · Discussion</span><h3><a href="#evaluation">State the limitation →</a></h3><p>What can the data NOT establish? Identify uncertainty or missing tests.</p></div>
-</div>
-<div class="note" style="margin-top:14px"><strong>Not extra moves:</strong> <a href="#strength">Claim strength</a> is a language check you use across the six moves. <a href="#variety">Sentence variety</a> is an optional writing tool. <a href="#warmup">Warm-up</a>, <a href="#practice">activities</a>, <a href="#quiz1">Quiz 1</a> and <a href="#homework">homework</a> let you practise the six moves.</div></section>
 
 <section id="warmup"><div class="head"><div><span class="label">Warm-up · Try the six moves <span class="time">Activity A · 12 min</span></span><h2>Warm-up — What Is Missing from This Description?</h2></div><p>Before learning each move, try to improve one descriptive paragraph. Use the six-move path as a checklist.</p></div>
 <div class="task" id="sol-a"><p><strong>Situation:</strong> An MSc student describes Fig. 1 (efficiency of two converter designs; the data are in the <a href="#figures">Figures section</a>) in a draft Results chapter.</p><div class="bad"><p>Fig. 1 shows the efficiency of Design A and Design B at six loads. Design A was 91.0% at 10% load and 95.1% at 100% load. Design B was 86.5% at 10% load and 96.3% at 100% load. Design A was higher at low loads and Design B was higher at high loads.</p></div>
@@ -72,82 +437,218 @@
 <div class="status"></div></div>
 </section>
 
-<section id="framework"><div class="head"><div><span class="label">The writing blueprint · Results and Discussion</span><h2>The Six Moves: From Reporting to Discussion</h2></div><p>In Results, report observations and comparisons (Moves 1–2). In Discussion, add meaning, explanation, implications and limits (Moves 3–6).</p></div>
+<section id="framework">
+<div class="head"><span class="label">Core lesson · The writing blueprint · Results and Discussion</span><h2>The Six Moves: From Reporting to Discussion</h2><p>In Results, report observations and comparisons (Moves 1–2). In Discussion, add meaning, explanation, implications and limits (Moves 3–6).</p></div>
+<div class="fw-intro">
 <div class="bridge" style="margin-bottom:14px"><strong>Keep this distinction:</strong> <strong>Results</strong> = what was measured (Moves 1–2). <strong>Discussion</strong> = what it means, why it may happen, why it matters and what remains uncertain (Moves 3–6). Use the same six moves when a thesis combines Results and Discussion.</div>
-<div class="table-scroll " style="" role="region" aria-label="Results versus Discussion" tabindex="0"><table><caption class="sr-only">Results versus Discussion</caption><thead><tr><th scope="col"><span class="sr-only">Feature</span></th><th scope="col">Results</th><th scope="col">Discussion</th></tr></thead><tbody><tr><th scope="row" class="sl">Question answered</th><td>What did we find?</td><td>What does it mean, and how far can we trust it?</td></tr><tr><th scope="row" class="sl">Typical content</th><td>Values, trends, comparisons, figure and table references</td><td>Meaning, possible reasons, literature comparison, implications and limitations</td></tr><tr><th scope="row" class="sl">Verb tenses</th><td><strong>Past simple:</strong> report a completed measurement (<em>Design B reached 96.7% at 80% load</em>).<br><strong>Present simple:</strong> describe a figure (<em>Fig. 1 shows where the curves cross</em>).</td><td><strong>Present + hedge:</strong> interpret (<em>This may suggest…</em>).<br><strong>Present simple:</strong> give a general relationship (<em>Switching loss increases with switching frequency</em>).<br><strong>Modal:</strong> discuss a possibility (<em>Design B could reduce losses</em>).<br><strong>Past simple:</strong> cite one study (<em>Reference [3] reported 96.2%</em>).<br><strong>Present perfect:</strong> summarise studies (<em>Several studies have reported lower losses [3], [5]</em>).<br><strong>Past + present:</strong> explain a limitation (<em>Only three repeats were performed, so the result needs caution</em>).</td></tr><tr><th scope="row" class="sl">Citations</th><td>Rarely, except for methods or data sources</td><td>Often: to compare, to support an explanation, to show agreement or difference</td></tr><tr><th scope="row" class="sl">Claim strength</th><td>Close to the data: verbs of observation (<em>was, reached, was lower than</em>); no explanation unless tested</td><td>Calibrated to the evidence: <span class="kw-int">may suggest</span>, <span class="kw-int">may be attributed to</span>, <span class="kw-int">is consistent with</span></td></tr></tbody></table></div>
+<details class="deep"><summary>Results vs Discussion: questions, content, verb tenses, citations and claim strength<span class="opt">Reference</span></summary><div class="deep-body">
+<div class="table-scroll " style="" role="region" aria-label="Results versus Discussion" tabindex="0"><table><caption class="sr-only">Results versus Discussion</caption><thead><tr><th scope="col"><span class="sr-only">Feature</span></th><th scope="col">Results</th><th scope="col">Discussion</th></tr></thead><tbody><tr><th scope="row" class="sl">Question answered</th><td data-label="Results">What did we find?</td><td data-label="Discussion">What does it mean, and how far can we trust it?</td></tr><tr><th scope="row" class="sl">Typical content</th><td data-label="Results">Values, trends, comparisons, figure and table references</td><td data-label="Discussion">Meaning, possible reasons, literature comparison, implications and limitations</td></tr><tr><th scope="row" class="sl">Verb tenses</th><td data-label="Results"><strong>Past simple:</strong> report a completed measurement (<em>Design B reached 96.7% at 80% load</em>).<br><strong>Present simple:</strong> describe a figure (<em>Fig. 1 shows where the curves cross</em>).</td><td data-label="Discussion"><strong>Present + hedge:</strong> interpret (<em>This may suggest…</em>).<br><strong>Present simple:</strong> give a general relationship (<em>Switching loss increases with switching frequency</em>).<br><strong>Modal:</strong> discuss a possibility (<em>Design B could reduce losses</em>).<br><strong>Past simple:</strong> cite one study (<em>Reference [3] reported 96.2%</em>).<br><strong>Present perfect:</strong> summarise studies (<em>Several studies have reported lower losses [3], [5]</em>).<br><strong>Past + present:</strong> explain a limitation (<em>Only three repeats were performed, so the result needs caution</em>).</td></tr><tr><th scope="row" class="sl">Citations</th><td data-label="Results">Rarely, except for methods or data sources</td><td data-label="Discussion">Often: to compare, to support an explanation, to show agreement or difference</td></tr><tr><th scope="row" class="sl">Claim strength</th><td data-label="Results">Close to the data: verbs of observation (<em>was, reached, was lower than</em>); no explanation unless tested</td><td data-label="Discussion">Calibrated to the evidence: <span class="kw-int">may suggest</span>, <span class="kw-int">may be attributed to</span>, <span class="kw-int">is consistent with</span></td></tr></tbody></table></div>
 <p class="small" style="margin-top:8px">Some theses combine Results and Discussion. The six moves still apply; choose tense according to purpose.</p>
-<div class="kw-legend" style="margin-top:16px" role="note" aria-label="Six moves key"><b class="lt">Six moves</b><span class="i"><b>1 Observation</b></span><span class="i"><b>2 Comparison</b></span><span class="i"><b>3 Interpretation</b></span><span class="i"><b>4 Explanation with evidence</b></span><span class="i"><b>5 Implication</b></span><span class="i"><b>6 Limitation</b></span></div>
-<div class="table-scroll ways" style="" role="region" aria-label="Model sentences for the six moves, Fig. 1" tabindex="0"><table><caption class="sr-only">Model sentences for the six moves, Fig. 1</caption><thead><tr><th scope="col">Move</th><th scope="col">Model sentence for Fig. 1 (values from this lesson’s figures)</th></tr></thead><tbody><tr class="sit"><th scope="colgroup" colspan="2">Results <small>— past tense, close to the data</small></th></tr><tr><th scope="row" class="sl">1 Observation</th><td>Both designs exceeded 95% efficiency at each measured load from 40% to 100%, peaking at 96.4% (Design A, 60% load) and 96.7% (Design B, 80% load) (Fig. 1).</td></tr><tr><th scope="row" class="sl">2 Comparison</th><td>Design A was more efficient at low loads: <span class="kw-cmp">by</span> 4.5 <span class="kw-cmp">percentage points</span> at 10%. <span class="kw-cmp">However</span>, Design B was higher <span class="kw-cmp">by</span> 0.7 points at 80% load and 1.2 at 100%. The curves crossed between 60% and 80% load (about 66% by linear interpolation).</td></tr><tr class="sit"><th scope="colgroup" colspan="2">Discussion <small>— present tense for interpretation; calibrated claims</small></th></tr><tr><th scope="row" class="sl">3 Interpretation</th><td><span class="kw-int">This may suggest that</span> Design B is better suited to applications in which the converter operates mainly at high load.</td></tr><tr><th scope="row" class="sl">4 Explanation with evidence</th><td><span class="kw-int">A possible explanation is</span> lower switching loss in Design B at high current, as [3] also proposes for designs of this type.</td></tr><tr><th scope="row" class="sl">5 Implication</th><td>If this holds in service, Design B <span class="kw-int">could</span> reduce losses over a duty cycle dominated by high load.</td></tr><tr><th scope="row" class="sl">6 Limitation</th><td><span class="kw-cmp">However</span>, only one prototype per design was tested, with no repeat measurements. The high-load difference (at most 1.2 <span class="kw-cmp">percentage points</span>) <span class="kw-lim">may</span> be within measurement uncertainty and <span class="kw-lim">should be interpreted with caution</span>.</td></tr></tbody></table></div>
-<p class="small" style="margin-top:8px">[3] is a hypothetical placeholder reference (see the note in the Figures section).</p>
-<div class="warning" style="margin-top:14px"><strong>Always include a limitation.</strong> It shows what the evidence cannot establish. In move 4, a reason is still <em>possible</em> unless you tested it.</div>
-</section>
+</div></details>
+</div>
 
-<section id="figures"><div class="head"><div><span class="label">Move 1 of 6 · Observation · Results</span><h2>Move 1 — Report What the Figures Show</h2></div><p>Identify the measured variables, exact values, units and trends. These same figures will be used again in Moves 2–6.</p></div>
-<div class="kw-legend" role="note" aria-label="Colour key for key language"><b class="lt">Colour key</b><span class="i"><span class="kw-up">rise</span> upward movement</span><span class="i"><span class="kw-down">fall</span> downward movement</span><span class="i"><span class="kw-flat">level off</span> stability or fluctuation</span><span class="i"><span class="kw-deg">sharply</span> degree and speed</span><span class="i"><span class="kw-cmp">whereas</span> comparison, contrast, approximation, units</span><span class="i"><span class="kw-int">may suggest</span> interpretation or explanation</span><span class="i"><span class="kw-eval">outperformed</span> evaluation of the data</span><span class="i"><span class="kw-lim">should be interpreted with caution</span> limitation</span></div>
+<div class="stepnav" id="roadmap">
+<div class="stepnav-head"><h3 class="sr-only">The six moves</h3><p>Moves 1–2 belong mainly to <strong>Results</strong>. Moves 3–6 build the <strong>Discussion</strong>. Select any move to open its lesson.</p><p class="stepcount" aria-live="polite"><strong>Move <span id="stepnum">1</span> of 6</strong></p></div>
+<div class="steptabs" role="tablist" aria-label="The six moves">
+<div class="phase res"><span class="phase-label">Results</span><div class="phase-tabs">
+<a class="steptab" role="tab" id="tab-1" href="#figures" aria-controls="figures" aria-selected="true"><span class="n">1</span>Observation</a>
+<a class="steptab" role="tab" id="tab-2" href="#comparison" aria-controls="comparison" aria-selected="false"><span class="n">2</span>Comparison</a>
+</div></div>
+<div class="phase dis"><span class="phase-label">Discussion</span><div class="phase-tabs">
+<a class="steptab" role="tab" id="tab-3" href="#interpretation" aria-controls="interpretation" aria-selected="false"><span class="n">3</span>Interpretation</a>
+<a class="steptab" role="tab" id="tab-4" href="#literature" aria-controls="literature" aria-selected="false"><span class="n">4</span>Explanation with Evidence</a>
+<a class="steptab" role="tab" id="tab-5" href="#implication" aria-controls="implication" aria-selected="false"><span class="n">5</span>Implication</a>
+<a class="steptab" role="tab" id="tab-6" href="#evaluation" aria-controls="evaluation" aria-selected="false"><span class="n">6</span>Limitation</a>
+</div></div>
+</div>
+<div class="progress" aria-hidden="true"><span id="progressbar"></span></div>
+<p class="keyhint">Tip for the projector: use <kbd>←</kbd> <kbd>→</kbd> to move between steps.</p>
+</div>
 
-<div class="figure-card"><span class="label">Fig. 1 · Line graph, two series</span><h3>Efficiency of Two Converter Designs vs Load <span class="small">(illustrative data)</span></h3><div class="fig-keep"><div class="grid">
-<div class="svgbox"><svg viewBox="0 0 620 352" role="img" aria-label="Line graph of efficiency of Design A (solid line, circles) and Design B (dashed line, squares) against load; the curves cross between 60 and 80 percent load, at about 66 percent by linear interpolation"><g stroke="#d9e1db"><line x1="70" y1="270.0" x2="580" y2="270.0"/><line x1="70" y1="204.3" x2="580" y2="204.3"/><line x1="70" y1="138.6" x2="580" y2="138.6"/><line x1="70" y1="72.9" x2="580" y2="72.9"/></g><line x1="70" y1="40" x2="70" y2="270" stroke="#17231d" stroke-width="2"/><line x1="70" y1="270" x2="580" y2="270" stroke="#17231d" stroke-width="2"/><g font-size="14" fill="#17231d" text-anchor="end"><text x="62" y="275.0">84</text><text x="62" y="209.3">88</text><text x="62" y="143.6">92</text><text x="62" y="77.9">96</text></g><g font-size="14" fill="#17231d" text-anchor="middle"><text x="90.0" y="293">10</text><text x="141.1" y="293">20</text><text x="243.3" y="293">40</text><text x="345.6" y="293">60</text><text x="447.8" y="293">80</text><text x="550.0" y="293">100</text></g><line x1="376.2" y1="40" x2="376.2" y2="270" stroke="#934b3b" stroke-width="1.5" stroke-dasharray="5 4"/><text x="376.2" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#934b3b">crossover ≈ 66% load</text><polyline points="90.0,155.0 141.1,102.5 243.3,72.9 345.6,66.3 447.8,72.9 550.0,87.7" fill="none" stroke="#276f97" stroke-width="4"/><polyline points="90.0,228.9 141.1,141.9 243.3,86.0 345.6,71.3 447.8,61.4 550.0,68.0" fill="none" stroke="#1f6b4a" stroke-width="4" stroke-dasharray="10 6"/><g fill="#276f97"><circle cx="90.0" cy="155.0" r="5.5"/><circle cx="141.1" cy="102.5" r="5.5"/><circle cx="243.3" cy="72.9" r="5.5"/><circle cx="345.6" cy="66.3" r="5.5"/><circle cx="447.8" cy="72.9" r="5.5"/><circle cx="550.0" cy="87.7" r="5.5"/></g><g fill="#1f6b4a"><rect x="84.5" y="223.4" width="11" height="11"/><rect x="135.6" y="136.4" width="11" height="11"/><rect x="237.8" y="80.5" width="11" height="11"/><rect x="340.1" y="65.8" width="11" height="11"/><rect x="442.3" y="55.9" width="11" height="11"/><rect x="544.5" y="62.5" width="11" height="11"/></g><g font-size="14" font-weight="700"><text x="90.0" y="179.0" fill="#276f97" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke">91.0</text><text x="100.0" y="250.9" fill="#1f6b4a" stroke="#fff" stroke-width="4" paint-order="stroke">86.5</text><text x="546.0" y="113.7" fill="#276f97" text-anchor="end" stroke="#fff" stroke-width="4" paint-order="stroke">95.1</text><text x="546.0" y="56.0" fill="#1f6b4a" text-anchor="end" stroke="#fff" stroke-width="4" paint-order="stroke">96.3</text><text x="447.8" y="49.4" fill="#1f6b4a" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke">96.7</text><text x="327.6" y="54.3" fill="#276f97" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke">96.4</text></g><g font-size="14" fill="#17231d"><rect x="392" y="196" width="196" height="58" fill="#fff" stroke="#d8e0da" rx="6"/><line x1="402" y1="213" x2="436" y2="213" stroke="#276f97" stroke-width="4"/><circle cx="419" cy="213" r="5.5" fill="#276f97"/><text x="446" y="218">Design A</text><line x1="402" y1="238" x2="436" y2="238" stroke="#1f6b4a" stroke-width="4" stroke-dasharray="10 6"/><rect x="413.5" y="232.5" width="11" height="11" fill="#1f6b4a"/><text x="446" y="243">Design B</text></g><text x="325" y="322" text-anchor="middle" font-size="14" font-weight="700">Load (% of rated power)</text><text transform="translate(20 205) rotate(-90)" text-anchor="middle" font-size="14" font-weight="700">Efficiency (%)</text><text x="580" y="345" text-anchor="end" font-size="14" fill="#66716b">Note: vertical axis starts at 84%</text></svg></div>
-<div><h3>What to notice</h3><ul><li>Design A is higher at low load (<span class="kw-cmp">gap</span> 4.5 pp at 10%)</li><li>the curves <strong>cross</strong> between 60% and 80% load (about 66% by linear interpolation)</li><li>Design B is higher at 80% and 100% load (0.7 and 1.2 pp)</li><li>the vertical axis starts at 84%</li><li>the series differ by line style and marker shape, not by colour alone</li></ul><p class="small"><strong>Caption (IEEE):</strong> Fig. 1. Efficiency of Design A and Design B versus load, single prototype of each design (illustrative data).</p></div></div>
-<div class="table-scroll " style="margin-top:12px" role="region" aria-label="Fig. 1 data" tabindex="0"><table><caption class="sr-only">Fig. 1 data</caption><thead><tr><th scope="col">Load (% of rated)</th><th scope="col">10</th><th scope="col">20</th><th scope="col">40</th><th scope="col">60</th><th scope="col">80</th><th scope="col">100</th></tr></thead><tbody><tr><th scope="row" class="sl">Design A efficiency (%)</th><td>91.0</td><td>94.2</td><td>96.0</td><td>96.4</td><td>96.0</td><td>95.1</td></tr><tr><th scope="row" class="sl">Design B efficiency (%)</th><td>86.5</td><td>91.8</td><td>95.2</td><td>96.1</td><td>96.7</td><td>96.3</td></tr><tr><th scope="row" class="sl">Gap, A − B (pp)</th><td>+4.5</td><td>+2.4</td><td>+0.8</td><td>+0.3</td><td>−0.7</td><td>−1.2</td></tr></tbody></table></div></div></div>
-
-<div class="figure-card"><span class="label">Fig. 2 · Measured vs simulated, error bars and an anomaly</span><h3>PV Output: Measurement and Simulation <span class="small">(illustrative data)</span></h3><div class="fig-keep"><div class="grid">
+<div class="lesson" id="lesson" data-step="1">
+<div class="figaside">
+<aside class="figpanel" id="figpanel" aria-label="Lesson figures">
+<div class="figtabs" role="tablist" aria-label="Choose a figure">
+<button class="figtab" type="button" role="tab" id="figtab-1" aria-controls="fig-1" aria-selected="true">Fig. 1<span class="ft-long"> · Efficiency</span></button>
+<button class="figtab" type="button" role="tab" id="figtab-2" aria-controls="fig-2" aria-selected="false" tabindex="-1">Fig. 2<span class="ft-long"> · PV output</span></button>
+<button class="figtab" type="button" role="tab" id="figtab-3" aria-controls="fig-3" aria-selected="false" tabindex="-1">Fig. 3<span class="ft-long"> · Energy loss</span></button>
+</div>
+<figure class="fig" id="fig-1" role="tabpanel" aria-labelledby="figtab-1">
+<span class="label">Fig. 1 · Line graph, two series</span>
+<h3 class="fig-title">Efficiency of Two Converter Designs vs Load <span class="small">(illustrative data)</span></h3>
+<div class="svgbox"><svg id="fig1-svg" viewBox="0 0 620 352" role="img" aria-label="Line graph of efficiency of Design A (solid line, circles) and Design B (dashed line, squares) against load; the curves cross between 60 and 80 percent load, at about 66 percent by linear interpolation"><g stroke="#d9e1db"><line x1="70" y1="270.0" x2="580" y2="270.0"/><line x1="70" y1="204.3" x2="580" y2="204.3"/><line x1="70" y1="138.6" x2="580" y2="138.6"/><line x1="70" y1="72.9" x2="580" y2="72.9"/></g><g class="ov ov-bg" aria-hidden="true">
+<rect class="ov-s3 ov-s4 ov-s5" x="376.2" y="40" width="203.8" height="230" fill="#1f6b4a" fill-opacity=".09"/>
+<line class="ov-s1" x1="70" y1="89.3" x2="580" y2="89.3" stroke="#123f2d" stroke-width="1.5" stroke-dasharray="3 4"/>
+<line class="ov-s2" x1="90" y1="160" x2="90" y2="224" stroke="#934b3b" stroke-width="2.5"/>
+<line class="ov-s2" x1="550" y1="72" x2="550" y2="84" stroke="#934b3b" stroke-width="2.5"/>
+</g><line x1="70" y1="40" x2="70" y2="270" stroke="#17231d" stroke-width="2"/><line x1="70" y1="270" x2="580" y2="270" stroke="#17231d" stroke-width="2"/><g font-size="14" fill="#17231d" text-anchor="end"><text x="62" y="275.0">84</text><text x="62" y="209.3">88</text><text x="62" y="143.6">92</text><text x="62" y="77.9">96</text></g><g font-size="14" fill="#17231d" text-anchor="middle"><text x="90.0" y="293">10</text><text x="141.1" y="293">20</text><text x="243.3" y="293">40</text><text x="345.6" y="293">60</text><text x="447.8" y="293">80</text><text x="550.0" y="293">100</text></g><line x1="376.2" y1="40" x2="376.2" y2="270" stroke="#934b3b" stroke-width="1.5" stroke-dasharray="5 4"/><text x="376.2" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#934b3b">crossover ≈ 66% load</text><polyline points="90.0,155.0 141.1,102.5 243.3,72.9 345.6,66.3 447.8,72.9 550.0,87.7" fill="none" stroke="#276f97" stroke-width="4"/><polyline points="90.0,228.9 141.1,141.9 243.3,86.0 345.6,71.3 447.8,61.4 550.0,68.0" fill="none" stroke="#1f6b4a" stroke-width="4" stroke-dasharray="10 6"/><g fill="#276f97"><circle cx="90.0" cy="155.0" r="5.5"/><circle cx="141.1" cy="102.5" r="5.5"/><circle cx="243.3" cy="72.9" r="5.5"/><circle cx="345.6" cy="66.3" r="5.5"/><circle cx="447.8" cy="72.9" r="5.5"/><circle cx="550.0" cy="87.7" r="5.5"/></g><g fill="#1f6b4a"><rect x="84.5" y="223.4" width="11" height="11"/><rect x="135.6" y="136.4" width="11" height="11"/><rect x="237.8" y="80.5" width="11" height="11"/><rect x="340.1" y="65.8" width="11" height="11"/><rect x="442.3" y="55.9" width="11" height="11"/><rect x="544.5" y="62.5" width="11" height="11"/></g><g font-size="14" font-weight="700"><text x="90.0" y="179.0" fill="#276f97" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke">91.0</text><text x="100.0" y="250.9" fill="#1f6b4a" stroke="#fff" stroke-width="4" paint-order="stroke">86.5</text><text x="546.0" y="113.7" fill="#276f97" text-anchor="end" stroke="#fff" stroke-width="4" paint-order="stroke">95.1</text><text x="546.0" y="56.0" fill="#1f6b4a" text-anchor="end" stroke="#fff" stroke-width="4" paint-order="stroke">96.3</text><text x="447.8" y="49.4" fill="#1f6b4a" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke">96.7</text><text x="327.6" y="54.3" fill="#276f97" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke">96.4</text></g><g font-size="14" fill="#17231d"><rect x="392" y="196" width="196" height="58" fill="#fff" stroke="#d8e0da" rx="6"/><line x1="402" y1="213" x2="436" y2="213" stroke="#276f97" stroke-width="4"/><circle cx="419" cy="213" r="5.5" fill="#276f97"/><text x="446" y="218">Design A</text><line x1="402" y1="238" x2="436" y2="238" stroke="#1f6b4a" stroke-width="4" stroke-dasharray="10 6"/><rect x="413.5" y="232.5" width="11" height="11" fill="#1f6b4a"/><text x="446" y="243">Design B</text></g><text x="325" y="322" text-anchor="middle" font-size="14" font-weight="700">Load (% of rated power)</text><text transform="translate(20 205) rotate(-90)" text-anchor="middle" font-size="14" font-weight="700">Efficiency (%)</text><text x="580" y="345" text-anchor="end" font-size="14" fill="#66716b">Note: vertical axis starts at 84%</text><g class="ov ov-fg" font-size="14" aria-hidden="true">
+<g class="ov-s1"><circle cx="345.6" cy="66.3" r="9" fill="none" stroke="#123f2d" stroke-width="2.5"/><circle cx="447.8" cy="61.4" r="9" fill="none" stroke="#123f2d" stroke-width="2.5"/>
+<text x="76" y="84" font-weight="700" fill="#123f2d" stroke="#fff" stroke-width="4" paint-order="stroke">95%</text>
+<g class="ov-box"><rect x="180" y="124" width="300" height="46" rx="6" fill="#fff" fill-opacity=".92" stroke="#c9d6cd"/>
+<text x="330" y="143" text-anchor="middle" fill="#123f2d" font-weight="700">Both &gt; 95% from 40% to 100% load</text>
+<text x="330" y="162" text-anchor="middle" fill="#123f2d">Peaks: 96.4% (A, 60%) · 96.7% (B, 80%)</text></g></g>
+<g class="ov-s2"><text x="128" y="212" font-weight="700" fill="#934b3b" stroke="#fff" stroke-width="4" paint-order="stroke">gap 4.5 pp</text>
+<text class="ov-box" x="562" y="83" font-weight="700" fill="#934b3b" stroke="#fff" stroke-width="4" paint-order="stroke">1.2 pp</text>
+<g class="ov-box"><rect x="176" y="138" width="248" height="46" rx="6" fill="#fff" fill-opacity=".92" stroke="#c9d6cd"/>
+<text x="300" y="157" text-anchor="middle" fill="#123f2d" font-weight="700">Gap narrows: 4.5 pp → 0.3 pp</text>
+<text x="300" y="176" text-anchor="middle" fill="#123f2d">(10% → 60% load), then reverses</text></g></g>
+<g class="ov-s3"><g class="ov-box"><rect x="384" y="120" width="190" height="62" rx="6" fill="#fff" fill-opacity=".92" stroke="#c9d6cd"/>
+<text x="479" y="138" text-anchor="middle" fill="#123f2d" font-weight="700">B higher at 80–100% load</text>
+<text x="479" y="156" text-anchor="middle" fill="#123f2d">may suggest: better suited</text>
+<text x="479" y="174" text-anchor="middle" fill="#123f2d">to high-load operation</text></g></g>
+<g class="ov-s4"><g class="ov-box"><rect x="384" y="120" width="190" height="62" rx="6" fill="#fff" fill-opacity=".92" stroke="#c9d6cd"/>
+<text x="479" y="138" text-anchor="middle" fill="#123f2d" font-weight="700">Possible explanation:</text>
+<text x="479" y="156" text-anchor="middle" fill="#123f2d">lower switching loss</text>
+<text x="479" y="174" text-anchor="middle" fill="#123f2d">at high current (cf. [3])</text></g></g>
+<g class="ov-s5"><g class="ov-box"><rect x="384" y="120" width="190" height="62" rx="6" fill="#fff" fill-opacity=".92" stroke="#c9d6cd"/>
+<text x="479" y="138" text-anchor="middle" fill="#123f2d" font-weight="700">If this holds in service:</text>
+<text x="479" y="156" text-anchor="middle" fill="#123f2d">B could reduce losses over</text>
+<text x="479" y="174" text-anchor="middle" fill="#123f2d">high-load duty cycles</text></g></g>
+<g class="ov-s6"><g class="ov-box"><rect x="196" y="112" width="200" height="80" rx="6" fill="#fff" fill-opacity=".94" stroke="#934b3b" stroke-width="1.5"/>
+<text x="296" y="131" text-anchor="middle" fill="#934b3b" font-weight="700">1 prototype per design</text>
+<text x="296" y="149" text-anchor="middle" fill="#123f2d">no repeats · no error bars</text>
+<text x="296" y="167" text-anchor="middle" fill="#123f2d">high-load gap ≤ 1.2 pp may</text>
+<text x="296" y="185" text-anchor="middle" fill="#123f2d">be within uncertainty</text></g>
+<line x1="70" y1="40" x2="70" y2="270" stroke="#934b3b" stroke-width="4"/></g>
+</g></svg></div>
+<p class="sr-only" id="fig-annot" aria-live="polite"></p>
+<p class="fig-caption"><strong>Caption (IEEE):</strong> Fig. 1. Efficiency of Design A and Design B versus load, single prototype of each design (illustrative data).</p>
+<details class="deep"><summary>What to notice in Fig. 1</summary><div class="deep-body"><ul><li>Design A is higher at low load (<span class="kw-cmp">gap</span> 4.5 pp at 10%)</li><li>the curves <strong>cross</strong> between 60% and 80% load (about 66% by linear interpolation)</li><li>Design B is higher at 80% and 100% load (0.7 and 1.2 pp)</li><li>the vertical axis starts at 84%</li><li>the series differ by line style and marker shape, not by colour alone</li></ul></div></details>
+<details class="deep"><summary>Fig. 1 data table</summary><div class="deep-body"><div class="table-scroll data " style="margin-top:12px" role="region" aria-label="Fig. 1 data" tabindex="0"><table><caption class="sr-only">Fig. 1 data</caption><thead><tr><th scope="col">Load (% of rated)</th><th scope="col">10</th><th scope="col">20</th><th scope="col">40</th><th scope="col">60</th><th scope="col">80</th><th scope="col">100</th></tr></thead><tbody><tr><th scope="row" class="sl">Design A efficiency (%)</th><td data-label="10">91.0</td><td data-label="20">94.2</td><td data-label="40">96.0</td><td data-label="60">96.4</td><td data-label="80">96.0</td><td data-label="100">95.1</td></tr><tr><th scope="row" class="sl">Design B efficiency (%)</th><td data-label="10">86.5</td><td data-label="20">91.8</td><td data-label="40">95.2</td><td data-label="60">96.1</td><td data-label="80">96.7</td><td data-label="100">96.3</td></tr><tr><th scope="row" class="sl">Gap, A − B (pp)</th><td data-label="10">+4.5</td><td data-label="20">+2.4</td><td data-label="40">+0.8</td><td data-label="60">+0.3</td><td data-label="80">−0.7</td><td data-label="100">−1.2</td></tr></tbody></table></div></div></details>
+</figure>
+<figure class="fig" id="fig-2" role="tabpanel" aria-labelledby="figtab-2">
+<span class="label">Fig. 2 · Measured vs simulated, error bars and an anomaly</span>
+<h3 class="fig-title">PV Output: Measurement and Simulation <span class="small">(illustrative data)</span></h3>
 <div class="svgbox"><svg viewBox="0 0 620 352" role="img" aria-label="Measured (solid green line, circles, error bars) and simulated (dashed gold line, squares) PV output against time of day; both peak at 12:00 and the measured value at 14:00 is anomalously low"><g stroke="#d9e1db"><line x1="70" y1="194" x2="580" y2="194"/><line x1="70" y1="118" x2="580" y2="118"/><line x1="70" y1="42" x2="580" y2="42"/></g><line x1="70" y1="36" x2="70" y2="270" stroke="#17231d" stroke-width="2"/><line x1="70" y1="270" x2="580" y2="270" stroke="#17231d" stroke-width="2"/><g font-size="14" fill="#17231d" text-anchor="end"><text x="62" y="275">0</text><text x="62" y="199">2</text><text x="62" y="123">4</text><text x="62" y="47">6</text></g><g font-size="14" fill="#17231d" text-anchor="middle"><text x="90" y="293">08:00</text><text x="182" y="293">10:00</text><text x="274" y="293">12:00</text><text x="366" y="293">14:00</text><text x="458" y="293">16:00</text><text x="550" y="293">18:00</text></g><polyline points="90,235.8 182,133.2 274,80.0 366,118.0 458,178.8 550,247.2" fill="none" stroke="#c6a15b" stroke-width="3.5" stroke-dasharray="9 6"/><rect x="84" y="229.8" width="12" height="12" fill="#fff" stroke="#a8842f" stroke-width="2.5"/><rect x="176" y="127.2" width="12" height="12" fill="#fff" stroke="#a8842f" stroke-width="2.5"/><rect x="268" y="74.0" width="12" height="12" fill="#fff" stroke="#a8842f" stroke-width="2.5"/><rect x="360" y="112.0" width="12" height="12" fill="#fff" stroke="#a8842f" stroke-width="2.5"/><rect x="452" y="172.8" width="12" height="12" fill="#fff" stroke="#a8842f" stroke-width="2.5"/><rect x="544" y="241.2" width="12" height="12" fill="#fff" stroke="#a8842f" stroke-width="2.5"/><polyline points="90,239.6 182,140.8 274,91.4 366,163.6 458,186.4 550,251.0" fill="none" stroke="#1f6b4a" stroke-width="4"/><g stroke="#17231d" stroke-width="1.6"><line x1="90" y1="235.8" x2="90" y2="243.4"/><line x1="84" y1="235.8" x2="96" y2="235.8"/><line x1="84" y1="243.4" x2="96" y2="243.4"/><line x1="182" y1="133.2" x2="182" y2="148.4"/><line x1="176" y1="133.2" x2="188" y2="133.2"/><line x1="176" y1="148.4" x2="188" y2="148.4"/><line x1="274" y1="80.0" x2="274" y2="102.8"/><line x1="268" y1="80.0" x2="280" y2="80.0"/><line x1="268" y1="102.8" x2="280" y2="102.8"/><line x1="366" y1="129.4" x2="366" y2="197.8"/><line x1="360" y1="129.4" x2="372" y2="129.4"/><line x1="360" y1="197.8" x2="372" y2="197.8"/><line x1="458" y1="175.0" x2="458" y2="197.8"/><line x1="452" y1="175.0" x2="464" y2="175.0"/><line x1="452" y1="197.8" x2="464" y2="197.8"/><line x1="550" y1="247.2" x2="550" y2="254.8"/><line x1="544" y1="247.2" x2="556" y2="247.2"/><line x1="544" y1="254.8" x2="556" y2="254.8"/></g><g fill="#1f6b4a"><circle cx="90" cy="239.6" r="5"/><circle cx="182" cy="140.8" r="5"/><circle cx="274" cy="91.4" r="5"/><circle cx="366" cy="163.6" r="5"/><circle cx="458" cy="186.4" r="5"/><circle cx="550" cy="251.0" r="5"/></g><circle cx="366" cy="163.6" r="26" fill="none" stroke="#934b3b" stroke-width="2.5" stroke-dasharray="4 3"/><text x="366" y="223.8" text-anchor="middle" font-size="14" font-weight="700"><tspan fill="#934b3b">anomaly: </tspan><tspan fill="#1f6b4a">2.8 ± 0.9 kW</tspan></text><g font-size="14" font-weight="700" fill="#7a5c14" text-anchor="middle" stroke="#fff" stroke-width="4" paint-order="stroke"><text x="274" y="66.0">5.0</text><text x="366" y="104.0">4.0</text></g><g font-size="14" fill="#17231d"><rect x="410" y="36" width="176" height="82" fill="#fff" stroke="#d8e0da" rx="6"/><line x1="418" y1="54" x2="446" y2="54" stroke="#1f6b4a" stroke-width="4"/><circle cx="432" cy="54" r="5" fill="#1f6b4a"/><text x="454" y="59">Measured</text><text x="418" y="76" font-size="14">(mean ± 1 SD, n = 5)</text><line x1="418" y1="98" x2="446" y2="98" stroke="#c6a15b" stroke-width="3.5" stroke-dasharray="9 6"/><rect x="426" y="92" width="12" height="12" fill="#fff" stroke="#a8842f" stroke-width="2.5"/><text x="454" y="103" fill="#7a5c14" font-weight="700">Simulated</text></g><text x="325" y="322" text-anchor="middle" font-size="14" font-weight="700">Time of day</text><text transform="translate(20 190) rotate(-90)" text-anchor="middle" font-size="14" font-weight="700">PV output (kW)</text></svg></div>
-<div><h3>What to notice</h3><ul><li>both curves peak at 12:00 (simulated 5.0 kW; measured 4.7 kW)</li><li>close agreement at five of six times (differences ≤ 0.3 kW, each no larger than the SD at that time)</li><li><strong>anomaly</strong> at 14:00: 2.8 ± 0.9 kW measured vs 4.0 kW simulated (1.2 kW, 30% below)</li><li>the SD at 14:00 is three times that at 12:00</li><li>irradiance was <strong>not</strong> recorded</li></ul><p class="small"><strong>Caption (IEEE):</strong> Fig. 2. Measured (mean ± 1 SD, n = 5 days) and simulated PV output between 08:00 and 18:00 (illustrative data).</p></div></div>
-<div class="table-scroll " style="margin-top:12px" role="region" aria-label="Fig. 2 data" tabindex="0"><table><caption class="sr-only">Fig. 2 data</caption><thead><tr><th scope="col">Time</th><th scope="col">08:00</th><th scope="col">10:00</th><th scope="col">12:00</th><th scope="col">14:00</th><th scope="col">16:00</th><th scope="col">18:00</th></tr></thead><tbody><tr><th scope="row" class="sl">Simulated (kW)</th><td>0.9</td><td>3.6</td><td>5.0</td><td>4.0</td><td>2.4</td><td>0.6</td></tr><tr><th scope="row" class="sl">Measured mean (kW)</th><td>0.8</td><td>3.4</td><td>4.7</td><td>2.8</td><td>2.2</td><td>0.5</td></tr><tr><th scope="row" class="sl">SD (kW), n = 5</th><td>0.1</td><td>0.2</td><td>0.3</td><td>0.9</td><td>0.3</td><td>0.1</td></tr></tbody></table></div></div></div>
-
-<div class="figure-card"><span class="label">Fig. 3 · Bar chart with error bars</span><h3>Daily Energy Loss of Three Control Methods <span class="small">(illustrative data)</span></h3><div class="fig-keep"><div class="grid">
+<p class="fig-caption"><strong>Caption (IEEE):</strong> Fig. 2. Measured (mean ± 1 SD, n = 5 days) and simulated PV output between 08:00 and 18:00 (illustrative data).</p>
+<details class="deep"><summary>What to notice in Fig. 2</summary><div class="deep-body"><ul><li>both curves peak at 12:00 (simulated 5.0 kW; measured 4.7 kW)</li><li>close agreement at five of six times (differences ≤ 0.3 kW, each no larger than the SD at that time)</li><li><strong>anomaly</strong> at 14:00: 2.8 ± 0.9 kW measured vs 4.0 kW simulated (1.2 kW, 30% below)</li><li>the SD at 14:00 is three times that at 12:00</li><li>irradiance was <strong>not</strong> recorded</li></ul></div></details>
+<details class="deep"><summary>Fig. 2 data table</summary><div class="deep-body"><div class="table-scroll data " style="margin-top:12px" role="region" aria-label="Fig. 2 data" tabindex="0"><table><caption class="sr-only">Fig. 2 data</caption><thead><tr><th scope="col">Time</th><th scope="col">08:00</th><th scope="col">10:00</th><th scope="col">12:00</th><th scope="col">14:00</th><th scope="col">16:00</th><th scope="col">18:00</th></tr></thead><tbody><tr><th scope="row" class="sl">Simulated (kW)</th><td data-label="08:00">0.9</td><td data-label="10:00">3.6</td><td data-label="12:00">5.0</td><td data-label="14:00">4.0</td><td data-label="16:00">2.4</td><td data-label="18:00">0.6</td></tr><tr><th scope="row" class="sl">Measured mean (kW)</th><td data-label="08:00">0.8</td><td data-label="10:00">3.4</td><td data-label="12:00">4.7</td><td data-label="14:00">2.8</td><td data-label="16:00">2.2</td><td data-label="18:00">0.5</td></tr><tr><th scope="row" class="sl">SD (kW), n = 5</th><td data-label="08:00">0.1</td><td data-label="10:00">0.2</td><td data-label="12:00">0.3</td><td data-label="14:00">0.9</td><td data-label="16:00">0.3</td><td data-label="18:00">0.1</td></tr></tbody></table></div></div></details>
+</figure>
+<figure class="fig" id="fig-3" role="tabpanel" aria-labelledby="figtab-3">
+<span class="label">Fig. 3 · Bar chart with error bars</span>
+<h3 class="fig-title">Daily Energy Loss of Three Control Methods <span class="small">(illustrative data)</span></h3>
 <div class="svgbox"><svg viewBox="0 0 620 352" role="img" aria-label="Bar chart of daily energy loss for three control methods with error bars: 148, 94 and 87 watt-hours"><g stroke="#d9e1db"><line x1="70" y1="201.0" x2="580" y2="201.0"/><line x1="70" y1="132.0" x2="580" y2="132.0"/><line x1="70" y1="63.0" x2="580" y2="63.0"/></g><line x1="70" y1="40" x2="70" y2="270" stroke="#17231d" stroke-width="2"/><line x1="70" y1="270" x2="580" y2="270" stroke="#17231d" stroke-width="2"/><g font-size="14" fill="#17231d" text-anchor="end"><text x="62" y="275.0">0</text><text x="62" y="206.0">50</text><text x="62" y="137.0">100</text><text x="62" y="68.0">150</text></g><rect x="120" y="65.8" width="90" height="204.2" fill="#276f97"/><g stroke="#17231d" stroke-width="2"><line x1="165" y1="57.5" x2="165" y2="74.0"/><line x1="156" y1="57.5" x2="174" y2="57.5"/><line x1="156" y1="74.0" x2="174" y2="74.0"/></g><text x="165" y="39.5" text-anchor="middle" font-size="14" font-weight="700" fill="#184a68">148 ± 6 Wh</text><text x="165" y="293" text-anchor="middle" font-size="14" font-weight="700" fill="#17231d">Method 1</text><text x="165" y="311" text-anchor="middle" font-size="14" fill="#66716b">(hard-switched)</text><rect x="265" y="140.3" width="90" height="129.7" fill="#1f6b4a"/><g stroke="#17231d" stroke-width="2"><line x1="310" y1="130.6" x2="310" y2="149.9"/><line x1="301" y1="130.6" x2="319" y2="130.6"/><line x1="301" y1="149.9" x2="319" y2="149.9"/></g><text x="310" y="112.6" text-anchor="middle" font-size="14" font-weight="700" fill="#184a68">94 ± 7 Wh</text><text x="310" y="293" text-anchor="middle" font-size="14" font-weight="700" fill="#17231d">Method 2</text><text x="310" y="311" text-anchor="middle" font-size="14" fill="#66716b">(soft-switched)</text><rect x="410" y="149.9" width="90" height="120.1" fill="#c6a15b"/><g stroke="#17231d" stroke-width="2"><line x1="455" y1="141.7" x2="455" y2="158.2"/><line x1="446" y1="141.7" x2="464" y2="141.7"/><line x1="446" y1="158.2" x2="464" y2="158.2"/></g><text x="455" y="123.7" text-anchor="middle" font-size="14" font-weight="700" fill="#184a68">87 ± 6 Wh</text><text x="455" y="293" text-anchor="middle" font-size="14" font-weight="700" fill="#17231d">Method 3</text><text x="455" y="311" text-anchor="middle" font-size="14" fill="#66716b">(proposed;</text><text x="455" y="328" text-anchor="middle" font-size="14" fill="#66716b">soft-switched)</text><text transform="translate(20 205) rotate(-90)" text-anchor="middle" font-size="14" font-weight="700">Daily energy loss (Wh)</text><text x="580" y="346" text-anchor="end" font-size="14" fill="#66716b">Bars: mean of 3 repeated tests; error bars: ± 1 SD</text></svg></div>
-<div><h3>What to notice</h3><ul><li>Method 3 has the lowest mean loss (87 Wh), Method 1 the highest (148 Wh)</li><li>Method 3 vs Method 1: 61 Wh (41%) lower</li><li>Method 3 vs Method 2: 7 Wh (7%) lower, but the <strong>error bars overlap</strong></li><li>bars start at zero; n = 3 repeats</li><li>Methods 2 and 3 are both soft-switched; Method 3 adds the proposed control strategy</li></ul><p class="small"><strong>Caption (IEEE):</strong> Fig. 3. Daily energy loss of three control methods (mean ± 1 SD, n = 3 repeated tests each), measured on the same prototype under the same load profile; Method 3 is also soft-switched (illustrative data).</p></div></div>
-<div class="table-scroll " style="margin-top:12px" role="region" aria-label="Fig. 3 data" tabindex="0"><table><caption class="sr-only">Fig. 3 data</caption><thead><tr><th scope="col">Method</th><th scope="col">1 (hard-switched)</th><th scope="col">2 (soft-switched)</th><th scope="col">3 (proposed; soft-switched)</th></tr></thead><tbody><tr><th scope="row" class="sl">Daily energy loss (Wh), mean ± SD</th><td>148 ± 6</td><td>94 ± 7</td><td>87 ± 6</td></tr><tr><th scope="row" class="sl">Lower than Method 1 by</th><td>—</td><td>54 Wh (36%)</td><td>61 Wh (41%)</td></tr></tbody></table></div></div>
-<p class="small" style="margin-top:10px"><strong>Assumptions behind the wording.</strong> For Fig. 3, use <em>reduced</em> loss only if the methods were tested on the same prototype under the same load profile. Randomising the test order limits order effects; otherwise drift could affect the comparison. Explaining the improvement through soft switching also requires Method 3 to be soft-switched.</p></div>
+<p class="fig-caption"><strong>Caption (IEEE):</strong> Fig. 3. Daily energy loss of three control methods (mean ± 1 SD, n = 3 repeated tests each), measured on the same prototype under the same load profile; Method 3 is also soft-switched (illustrative data).</p>
+<details class="deep"><summary>What to notice in Fig. 3</summary><div class="deep-body"><ul><li>Method 3 has the lowest mean loss (87 Wh), Method 1 the highest (148 Wh)</li><li>Method 3 vs Method 1: 61 Wh (41%) lower</li><li>Method 3 vs Method 2: 7 Wh (7%) lower, but the <strong>error bars overlap</strong></li><li>bars start at zero; n = 3 repeats</li><li>Methods 2 and 3 are both soft-switched; Method 3 adds the proposed control strategy</li></ul></div></details>
+<details class="deep"><summary>Fig. 3 data table and assumptions</summary><div class="deep-body"><div class="table-scroll data " style="margin-top:12px" role="region" aria-label="Fig. 3 data" tabindex="0"><table><caption class="sr-only">Fig. 3 data</caption><thead><tr><th scope="col">Method</th><th scope="col">1 (hard-switched)</th><th scope="col">2 (soft-switched)</th><th scope="col">3 (proposed; soft-switched)</th></tr></thead><tbody><tr><th scope="row" class="sl">Daily energy loss (Wh), mean ± SD</th><td data-label="1 (hard-switched)">148 ± 6</td><td data-label="2 (soft-switched)">94 ± 7</td><td data-label="3 (proposed; soft-switched)">87 ± 6</td></tr><tr><th scope="row" class="sl">Lower than Method 1 by</th><td data-label="1 (hard-switched)">—</td><td data-label="2 (soft-switched)">54 Wh (36%)</td><td data-label="3 (proposed; soft-switched)">61 Wh (41%)</td></tr></tbody></table></div><p class="small" style="margin-top:10px"><strong>Assumptions behind the wording.</strong> For Fig. 3, use <em>reduced</em> loss only if the methods were tested on the same prototype under the same load profile. Randomising the test order limits order effects; otherwise drift could affect the comparison. Explaining the improvement through soft switching also requires Method 3 to be soft-switched.</p></div></details>
+</figure>
+</aside>
+</div>
+
+<div class="steps">
+<article class="step" id="figures" role="tabpanel" aria-labelledby="tab-1" tabindex="-1" data-annot="Fig. 1, Move 1 highlights: both designs stay above 95% from 40% to 100% load; peaks 96.4% for Design A at 60% load and 96.7% for Design B at 80% load.">
+<p class="step-kicker">Move 1 of 6 <span class="phase-chip">Results</span></p>
+<h3 class="step-title">Observation</h3>
+<p class="step-q">What did we measure?<span>Read the graph and report exact values and units.</span></p>
+<div class="fig-slot"></div>
+<div class="model"><span class="model-label">Model sentence · Fig. 1</span><p>Both designs exceeded 95% efficiency at each measured load from 40% to 100%, peaking at 96.4% (Design A, 60% load) and 96.7% (Design B, 80% load) (Fig. 1).</p></div>
+<p class="expl">Identify the measured variables, exact values, units and trends. These same figures will be used again in Moves 2–6.</p>
+<details class="deep"><summary>Detailed explanation: Move 1 — Report What the Figures Show<span class="opt">Optional</span></summary><div class="deep-body">
+<div class="kw-legend" role="note" aria-label="Colour key for key language"><b class="lt">Colour key</b><span class="i"><span class="kw-up">rise</span> upward movement</span><span class="i"><span class="kw-down">fall</span> downward movement</span><span class="i"><span class="kw-flat">level off</span> stability or fluctuation</span><span class="i"><span class="kw-deg">sharply</span> degree and speed</span><span class="i"><span class="kw-cmp">whereas</span> comparison, contrast, approximation, units</span><span class="i"><span class="kw-int">may suggest</span> interpretation or explanation</span><span class="i"><span class="kw-eval">outperformed</span> evaluation of the data</span><span class="i"><span class="kw-lim">should be interpreted with caution</span> limitation</span></div>
+<p>The lesson uses three figures. Switch between <strong>Fig. 1</strong>, <strong>Fig. 2</strong> and <strong>Fig. 3</strong> with the tabs above the graph; each has a <em>What to notice</em> list and its data table.</p>
 <p class="small" style="margin-top:12px">Literature values used in the examples ([3], [5], [7]) are <strong>hypothetical placeholders</strong> for classroom practice, not real findings. In your own writing, cite only sources you have read, and copy their values exactly.</p>
+</div></details>
+<div class="stepfoot"><a class="stepbtn prev" href="#roadmap" aria-disabled="true" tabindex="-1">← Previous</a><a class="stepbtn next" href="#comparison" data-go="2">Next: Comparison →</a></div>
+</article>
 
-<p class="move-next"><strong>Next →</strong> <a href="#comparison">Move 2 — Compare the results</a></p>
-</section>
-
-<section id="comparison"><div class="head"><div><span class="label">Move 2 of 6 · Comparison · Results</span><h2>Move 2 — Compare Values and Trends</h2></div><p>State which is higher or lower, by how much, and how the gap changes. Do not invent a reason yet.</p></div>
+<article class="step" id="comparison" role="tabpanel" aria-labelledby="tab-2" tabindex="-1" data-annot="Fig. 1, Move 2 highlights: the gap is 4.5 percentage points at 10% load, narrows to 0.3 at 60% load, reverses after the crossover at about 66% load, and is 1.2 points in favour of Design B at 100% load.">
+<p class="step-kicker">Move 2 of 6 <span class="phase-chip">Results</span></p>
+<h3 class="step-title">Comparison</h3>
+<p class="step-q">Which value is higher? By how much?<span>Does the difference change?</span></p>
+<div class="fig-slot"></div>
+<div class="model"><span class="model-label">Model sentence · Fig. 1</span><p>Design A was more efficient at low loads: <span class="kw-cmp">by</span> 4.5 <span class="kw-cmp">percentage points</span> at 10%. <span class="kw-cmp">However</span>, Design B was higher <span class="kw-cmp">by</span> 0.7 points at 80% load and 1.2 at 100%. The curves crossed between 60% and 80% load (about 66% by linear interpolation).</p></div>
+<p class="expl">State which is higher or lower, by how much, and how the gap changes. Do not invent a reason yet.</p>
+<details class="deep"><summary>Detailed explanation: Move 2 — Compare Values and Trends<span class="opt">Optional</span></summary><div class="deep-body">
 <div class="kw-legend" role="note" aria-label="Colour key"><b class="lt">Colour key</b><span class="i"><span class="kw-up">widened</span> gap or value increases</span><span class="i"><span class="kw-down">narrowed</span> gap or value decreases</span><span class="i"><span class="kw-flat">converged</span> stability or merging</span><span class="i"><span class="kw-deg">considerably</span> degree</span><span class="i"><span class="kw-cmp">whereas</span> comparison, units</span><span class="i"><span class="kw-eval">outperformed</span> evaluation of the data</span></div>
-<div class="table-scroll " style="" role="region" aria-label="Comparison language" tabindex="0"><table><caption class="sr-only">Comparison language</caption><thead><tr><th scope="col">Function</th><th scope="col">Language</th><th scope="col">Example (values from Figs. 1–3)</th></tr></thead><tbody><tr><th scope="row" class="sl">Contrast two values</th><td><span class="kw-cmp">whereas</span> · <span class="kw-cmp">while</span> · <span class="kw-cmp">in contrast</span> · <span class="kw-cmp">by contrast</span> · on the other hand</td><td>Design A was more efficient at 10% load (91.0%), <span class="kw-cmp">whereas</span> Design B was more efficient at 100% load (96.3%).</td></tr><tr><th scope="row" class="sl">Compare with a quantity</th><td>N pp <span class="kw-cmp">higher than</span> · N% <span class="kw-cmp">lower than</span> · N times <span class="kw-cmp">as high as</span> · <span class="kw-cmp">compared with</span> · <span class="kw-cmp">relative to</span></td><td><span class="kw-cmp">Compared with</span> Method 1, Method 3 lost 61 Wh less energy per day (87 against 148 Wh), i.e. 41% less <span class="kw-cmp">relative to</span> Method 1.</td></tr><tr><th scope="row" class="sl">Ratio</th><td>N times <span class="kw-cmp">as high as</span> · N times that of · a factor of N</td><td>Method 1’s daily loss was 1.7 times that of Method 3 (148 and 87 Wh).</td></tr><tr><th scope="row" class="sl">Rank / outperform (evaluative)</th><td><span class="kw-eval">outperformed</span> · <span class="kw-cmp">exceeded</span> · <span class="kw-cmp">surpassed</span> · the highest / lowest · ranked first</td><td>Method 3 had the lowest mean loss (87 Wh) and <span class="kw-eval">outperformed</span> Method 1; its 7 Wh advantage over Method 2 lies within the error bars.</td></tr><tr><th scope="row" class="sl">Gap pattern</th><td>the gap <span class="kw-up">widened</span> / <span class="kw-down">narrowed</span> / <span class="kw-flat">closed</span> / reversed</td><td>The efficiency gap <span class="kw-down">narrowed</span> from 4.5 pp at 10% load to 0.3 pp at 60% load.</td></tr><tr><th scope="row" class="sl">Curves meeting or separating</th><td><span class="kw-flat">converged</span> · <span class="kw-up">diverged</span> · crossed · <span class="kw-cmp">overtook</span> · fell below</td><td>The curves <span class="kw-flat">converged</span> between 40% and 60% load, crossed between 60% and 80% load (about 66% by linear interpolation), and then <span class="kw-up">diverged</span>: Design B <span class="kw-cmp">overtook</span> Design A.</td></tr><tr><th scope="row" class="sl">Similarity</th><td>similar · comparable · closely matched · in agreement with</td><td>Measured and simulated output were closely matched at five of six times (differences ≤ 0.3 kW).</td></tr></tbody></table></div>
+<div class="table-scroll " style="" role="region" aria-label="Comparison language" tabindex="0"><table><caption class="sr-only">Comparison language</caption><thead><tr><th scope="col">Function</th><th scope="col">Language</th><th scope="col">Example (values from Figs. 1–3)</th></tr></thead><tbody><tr><th scope="row" class="sl">Contrast two values</th><td data-label="Language"><span class="kw-cmp">whereas</span> · <span class="kw-cmp">while</span> · <span class="kw-cmp">in contrast</span> · <span class="kw-cmp">by contrast</span> · on the other hand</td><td data-label="Example (values from Figs. 1–3)">Design A was more efficient at 10% load (91.0%), <span class="kw-cmp">whereas</span> Design B was more efficient at 100% load (96.3%).</td></tr><tr><th scope="row" class="sl">Compare with a quantity</th><td data-label="Language">N pp <span class="kw-cmp">higher than</span> · N% <span class="kw-cmp">lower than</span> · N times <span class="kw-cmp">as high as</span> · <span class="kw-cmp">compared with</span> · <span class="kw-cmp">relative to</span></td><td data-label="Example (values from Figs. 1–3)"><span class="kw-cmp">Compared with</span> Method 1, Method 3 lost 61 Wh less energy per day (87 against 148 Wh), i.e. 41% less <span class="kw-cmp">relative to</span> Method 1.</td></tr><tr><th scope="row" class="sl">Ratio</th><td data-label="Language">N times <span class="kw-cmp">as high as</span> · N times that of · a factor of N</td><td data-label="Example (values from Figs. 1–3)">Method 1’s daily loss was 1.7 times that of Method 3 (148 and 87 Wh).</td></tr><tr><th scope="row" class="sl">Rank / outperform (evaluative)</th><td data-label="Language"><span class="kw-eval">outperformed</span> · <span class="kw-cmp">exceeded</span> · <span class="kw-cmp">surpassed</span> · the highest / lowest · ranked first</td><td data-label="Example (values from Figs. 1–3)">Method 3 had the lowest mean loss (87 Wh) and <span class="kw-eval">outperformed</span> Method 1; its 7 Wh advantage over Method 2 lies within the error bars.</td></tr><tr><th scope="row" class="sl">Gap pattern</th><td data-label="Language">the gap <span class="kw-up">widened</span> / <span class="kw-down">narrowed</span> / <span class="kw-flat">closed</span> / reversed</td><td data-label="Example (values from Figs. 1–3)">The efficiency gap <span class="kw-down">narrowed</span> from 4.5 pp at 10% load to 0.3 pp at 60% load.</td></tr><tr><th scope="row" class="sl">Curves meeting or separating</th><td data-label="Language"><span class="kw-flat">converged</span> · <span class="kw-up">diverged</span> · crossed · <span class="kw-cmp">overtook</span> · fell below</td><td data-label="Example (values from Figs. 1–3)">The curves <span class="kw-flat">converged</span> between 40% and 60% load, crossed between 60% and 80% load (about 66% by linear interpolation), and then <span class="kw-up">diverged</span>: Design B <span class="kw-cmp">overtook</span> Design A.</td></tr><tr><th scope="row" class="sl">Similarity</th><td data-label="Language">similar · comparable · closely matched · in agreement with</td><td data-label="Example (values from Figs. 1–3)">Measured and simulated output were closely matched at five of six times (differences ≤ 0.3 kW).</td></tr></tbody></table></div>
 <p class="small" style="margin-top:8px"><strong>“Outperformed” means better, not simply lower.</strong> Use it only if the difference is clear despite the error bars. Otherwise, write <em>was lower than</em>.</p>
 <div class="grid" style="margin-top:14px"><div class="grammarbox"><h3>“Times higher” is ambiguous</h3><p>“1.7 times <em>higher</em> than” is ambiguous: it may mean 1.7 or 2.7 times the original. Prefer <strong>1.7 times <em>as high as</em></strong>, <strong>1.7 times that of</strong>, or give both values (148 and 87 Wh). Report the base of every percentage: “41% lower <em>than Method 1</em>”.</p></div><div class="grammarbox"><h3>Compare like with like</h3><p>Do not compare a measurement with a method. Write: “Method 3’s loss was lower than <strong>that of</strong> Method 1.” Use <em>compared with</em> or <em>relative to</em>, and keep the same unit on both sides.</p></div></div>
+</div></details>
+<div class="stepfoot"><a class="stepbtn prev" href="#figures" data-go="1">← Observation</a><a class="stepbtn next" href="#interpretation" data-go="3">Next: Interpretation →</a></div>
+</article>
 
-<p class="move-next"><strong>Next →</strong> <a href="#interpretation">Move 3 — Interpret the pattern</a></p>
-</section>
-
-<section id="interpretation"><div class="head"><div><span class="label">Move 3 of 6 · Interpretation · Discussion</span><h2>Move 3 — Say What the Pattern Means</h2></div><p>Interpret the observed pattern cautiously. This is about meaning; the possible cause comes next, in Move 4.</p></div>
+<article class="step" id="interpretation" role="tabpanel" aria-labelledby="tab-3" tabindex="-1" data-annot="Fig. 1, Move 3 highlights the high-load region, from the crossover to 100% load, where Design B was higher.">
+<p class="step-kicker">Move 3 of 6 <span class="phase-chip dis">Discussion</span></p>
+<h3 class="step-title">Interpretation</h3>
+<p class="step-q">What might the results mean?<span>Distinguish meaning from measurements.</span></p>
+<div class="fig-slot"></div>
+<div class="model"><span class="model-label">Model sentence · Fig. 1</span><p><span class="kw-int">This may suggest that</span> Design B is better suited to applications in which the converter operates mainly at high load.</p></div>
+<p class="expl">Interpret the observed pattern cautiously. This is about meaning; the possible cause comes next, in Move 4.</p>
+<details class="deep"><summary>Detailed explanation: Move 3 — Say What the Pattern Means<span class="opt">Optional</span></summary><div class="deep-body">
 <div class="kw-legend" role="note" aria-label="Interpretation words"><b class="lt">Move 3 language</b><span class="i"><span class="kw-int">suggests</span> supported meaning</span><span class="i"><span class="kw-int">may suggest</span> limited evidence</span><span class="i">Do not present an untested reason as fact.</span></div>
-<div class="table-scroll " style="" role="region" aria-label="Interpretation and evaluation language" tabindex="0"><table><caption class="sr-only">Interpretation and evaluation language</caption><thead><tr><th scope="col">Function</th><th scope="col">Language</th><th scope="col">Example (values from Figs. 1–3)</th></tr></thead><tbody><tr><th scope="row" class="sl">Interpret a pattern</th><td><span class="kw-int">this suggests / indicates that</span> · <span class="kw-int">this may suggest that</span> · <span class="kw-int">these results point to</span> · <span class="kw-int">it appears that</span></td><td><span class="kw-int">This may suggest that</span> Design B is better suited to high-load operation (one prototype, no repeats).<br><span class="kw-int">These results suggest that</span> Method 3 loses less energy than Method 1 (n = 3 repeats; a 61 Wh difference against SDs of 6 Wh).</td></tr></tbody></table></div>
+<div class="table-scroll " style="" role="region" aria-label="Interpretation and evaluation language" tabindex="0"><table><caption class="sr-only">Interpretation and evaluation language</caption><thead><tr><th scope="col">Function</th><th scope="col">Language</th><th scope="col">Example (values from Figs. 1–3)</th></tr></thead><tbody><tr><th scope="row" class="sl">Interpret a pattern</th><td data-label="Language"><span class="kw-int">this suggests / indicates that</span> · <span class="kw-int">this may suggest that</span> · <span class="kw-int">these results point to</span> · <span class="kw-int">it appears that</span></td><td data-label="Example (values from Figs. 1–3)"><span class="kw-int">This may suggest that</span> Design B is better suited to high-load operation (one prototype, no repeats).<br><span class="kw-int">These results suggest that</span> Method 3 loses less energy than Method 1 (n = 3 repeats; a 61 Wh difference against SDs of 6 Wh).</td></tr></tbody></table></div>
 <div class="note" style="margin-top:14px"><strong>Move 3 asks: What does the pattern mean?</strong> Move 4 will ask why it may occur and what evidence supports that reason. Move 5 will ask why it matters.</div>
+</div></details>
+<div class="stepfoot"><a class="stepbtn prev" href="#comparison" data-go="2">← Comparison</a><a class="stepbtn next" href="#literature" data-go="4">Next: Explanation →</a></div>
+</article>
 
-<p class="move-next"><strong>Next →</strong> <a href="#literature">Move 4 — Explain with evidence</a></p>
-</section>
-
-<section id="literature"><div class="head"><div><span class="label">Move 4 of 6 · Explanation with evidence · Discussion</span><h2>Move 4 — Explain the Pattern with Evidence</h2></div><p>Offer a possible reason, then support or compare it with experimental evidence or published research. Do not claim an untested cause as fact.</p></div>
+<article class="step" id="literature" role="tabpanel" aria-labelledby="tab-4" tabindex="-1" data-annot="Fig. 1, Move 4: a possible, untested explanation for the high-load region is lower switching loss at high current, as hypothetical reference [3] proposes.">
+<p class="step-kicker">Move 4 of 6 <span class="phase-chip dis">Discussion</span></p>
+<h3 class="step-title">Explanation with Evidence</h3>
+<p class="step-q">What might explain the pattern?<span>Support the reason with data or research.</span></p>
+<div class="fig-slot"></div>
+<div class="model"><span class="model-label">Model sentence · Fig. 1</span><p><span class="kw-int">A possible explanation is</span> lower switching loss in Design B at high current, as [3] also proposes for designs of this type.</p></div>
+<p class="expl">Offer a possible reason, then support or compare it with experimental evidence or published research. Do not claim an untested cause as fact.</p>
+<details class="deep"><summary>Detailed explanation: Move 4 — Explain the Pattern with Evidence<span class="opt">Optional</span></summary><div class="deep-body">
 <div class="note" style="margin-bottom:14px"><strong>First explain, then support:</strong> Say what might cause the pattern (for example, lower switching loss), then examine whether your measurements or another study support this explanation. Sources [3], [5] and [7] below are <strong>hypothetical classroom placeholders</strong>, not real papers.</div>
-<div class="table-scroll" role="region" aria-label="Move 4 explanation language" tabindex="0"><table><thead><tr><th scope="col">Function</th><th scope="col">Language</th><th scope="col">Engineering example</th></tr></thead><tbody><tr><th scope="row" class="sl">Offer a reason</th><td><span class="kw-int">a possible explanation is</span> · <span class="kw-int">this may be attributed to</span> · <span class="kw-int">one reason may be</span> · <span class="kw-int">this may reflect</span></td><td>The lower loss of Methods 2 and 3 <span class="kw-int">may be attributed to</span> soft switching, which reduces switching loss.</td></tr></tbody></table></div>
+<div class="table-scroll" role="region" aria-label="Move 4 explanation language" tabindex="0"><table><thead><tr><th scope="col">Function</th><th scope="col">Language</th><th scope="col">Engineering example</th></tr></thead><tbody><tr><th scope="row" class="sl">Offer a reason</th><td data-label="Language"><span class="kw-int">a possible explanation is</span> · <span class="kw-int">this may be attributed to</span> · <span class="kw-int">one reason may be</span> · <span class="kw-int">this may reflect</span></td><td data-label="Engineering example">The lower loss of Methods 2 and 3 <span class="kw-int">may be attributed to</span> soft switching, which reduces switching loss.</td></tr></tbody></table></div>
 <p class="small" style="margin-top:10px"><strong>Evidence check:</strong> Compare both values, units, test conditions and uncertainty before claiming agreement or difference.</p>
-
-<div class="table-scroll " style="" role="region" aria-label="Relationships with a cited study" tabindex="0"><table><caption class="sr-only">Relationships with a cited study</caption><thead><tr><th scope="col">Relationship</th><th scope="col">Language</th><th scope="col">Example (hypothetical placeholder reference values)</th></tr></thead><tbody><tr><th scope="row" class="sl">Similar (no uncertainty available)</th><td><span class="kw-int">is similar to [3]</span> · <span class="kw-int">is close to [3]</span> · <span class="kw-int">is comparable with [3]</span></td><td>The peak efficiency of Design B (96.7%) is <span class="kw-int">similar to</span> the 96.2% reported in [3], a difference of 0.5 <span class="kw-cmp">percentage points</span>; Fig. 1 has no repeats, so no uncertainty can be stated.</td></tr><tr><th scope="row" class="sl">Consistent (difference within the uncertainty)</th><td><span class="kw-int">is consistent with [5]</span> · <span class="kw-int">is in line with [5]</span> · <span class="kw-int">agrees with [5]</span></td><td>The 36% lower loss of Method 2 <span class="kw-cmp">relative to</span> Method 1 is slightly <span class="kw-cmp">smaller</span> than the 38% reported in [5]. The difference of 2 <span class="kw-cmp">percentage points</span> is about 3 Wh on a 148 Wh base, smaller than the SDs in Fig. 3 (6 and 7 Wh), so the values are <span class="kw-int">consistent with</span> each other, although [5] reports no uncertainty.</td></tr><tr><th scope="row" class="sl">Consistent (within the uncertainty)</th><td><span class="kw-int">is consistent with [7]</span> · <span class="kw-int">is in line with [7]</span></td><td>[7] reported a deviation of 4% between measured and simulated output at both 12:00 and 14:00. The deviation here at 12:00 was 6% (0.3 kW on 5.0 kW). The difference of 2 <span class="kw-cmp">percentage points</span> is smaller than the SD at that time (0.3 kW, or 6% of 5.0 kW), so the values are <span class="kw-int">consistent with</span> each other.</td></tr><tr><th scope="row" class="sl">Differs (difference beyond the uncertainty)</th><td><span class="kw-int">contrary to [7]</span> · <span class="kw-cmp">whereas [7]</span> · <span class="kw-int">differs from [7]</span></td><td><span class="kw-cmp">Whereas</span> [7] reported a deviation of 4% at 14:00, the deviation here was 30% (2.8 ± 0.9 kW against 4.0 kW). The difference of 26 <span class="kw-cmp">percentage points</span> exceeds the SD at that time (0.9 kW, or 22.5% of 4.0 kW), so the values <span class="kw-int">differ</span>.</td></tr></tbody></table></div>
+<div class="table-scroll " style="" role="region" aria-label="Relationships with a cited study" tabindex="0"><table><caption class="sr-only">Relationships with a cited study</caption><thead><tr><th scope="col">Relationship</th><th scope="col">Language</th><th scope="col">Example (hypothetical placeholder reference values)</th></tr></thead><tbody><tr><th scope="row" class="sl">Similar (no uncertainty available)</th><td data-label="Language"><span class="kw-int">is similar to [3]</span> · <span class="kw-int">is close to [3]</span> · <span class="kw-int">is comparable with [3]</span></td><td data-label="Example (hypothetical placeholder reference values)">The peak efficiency of Design B (96.7%) is <span class="kw-int">similar to</span> the 96.2% reported in [3], a difference of 0.5 <span class="kw-cmp">percentage points</span>; Fig. 1 has no repeats, so no uncertainty can be stated.</td></tr><tr><th scope="row" class="sl">Consistent (difference within the uncertainty)</th><td data-label="Language"><span class="kw-int">is consistent with [5]</span> · <span class="kw-int">is in line with [5]</span> · <span class="kw-int">agrees with [5]</span></td><td data-label="Example (hypothetical placeholder reference values)">The 36% lower loss of Method 2 <span class="kw-cmp">relative to</span> Method 1 is slightly <span class="kw-cmp">smaller</span> than the 38% reported in [5]. The difference of 2 <span class="kw-cmp">percentage points</span> is about 3 Wh on a 148 Wh base, smaller than the SDs in Fig. 3 (6 and 7 Wh), so the values are <span class="kw-int">consistent with</span> each other, although [5] reports no uncertainty.</td></tr><tr><th scope="row" class="sl">Consistent (within the uncertainty)</th><td data-label="Language"><span class="kw-int">is consistent with [7]</span> · <span class="kw-int">is in line with [7]</span></td><td data-label="Example (hypothetical placeholder reference values)">[7] reported a deviation of 4% between measured and simulated output at both 12:00 and 14:00. The deviation here at 12:00 was 6% (0.3 kW on 5.0 kW). The difference of 2 <span class="kw-cmp">percentage points</span> is smaller than the SD at that time (0.3 kW, or 6% of 5.0 kW), so the values are <span class="kw-int">consistent with</span> each other.</td></tr><tr><th scope="row" class="sl">Differs (difference beyond the uncertainty)</th><td data-label="Language"><span class="kw-int">contrary to [7]</span> · <span class="kw-cmp">whereas [7]</span> · <span class="kw-int">differs from [7]</span></td><td data-label="Example (hypothetical placeholder reference values)"><span class="kw-cmp">Whereas</span> [7] reported a deviation of 4% at 14:00, the deviation here was 30% (2.8 ± 0.9 kW against 4.0 kW). The difference of 26 <span class="kw-cmp">percentage points</span> exceeds the SD at that time (0.9 kW, or 22.5% of 4.0 kW), so the values <span class="kw-int">differ</span>.</td></tr></tbody></table></div>
 <div class="note" style="margin-top:14px"><strong>Classroom agreement rule:</strong> Compare the gap with the uncertainty of your own measurement (e.g., 1 SD in the same unit). If the gap is smaller, write <em>consistent with</em>; if larger, write <em>differs from</em>. If no uncertainty is given (Fig. 1), state this and write <em>similar to</em>. <strong>This is a guide, not a statistical test.</strong></div>
 <div class="grid" style="margin-top:14px"><div class="grammarbox"><h3>IEEE in-text citation</h3><ul><li>Numbered, in square brackets, in order of first appearance: <strong>[3]</strong>; several sources: <strong>[3], [5]</strong>; a range: <strong>[3]–[5]</strong>.</li><li>Place the number before the punctuation: “…reported in [3].”</li><li>Begin a sentence with <em>In [3],</em> or <em>Reference [3] reported</em>; use the full name only when it adds meaning.</li><li>Give the full reference in the reference list. In class we use [3], [5] and [7] as hypothetical placeholders only.</li></ul></div><div class="grammarbox"><h3>A fair comparison checklist</h3><ul><li>Same quantity and unit (efficiency at rated load, not peak against rated).</li><li>Similar conditions or rating? If not, say so.</li><li>Report both values and the difference.</li><li>Give a <em>possible</em> reason for any difference, and hedge it.</li><li>Do not write “confirms” for a single close value; write <span class="kw-int">is consistent with</span> or <span class="kw-int">is similar to</span>.</li></ul></div></div>
-
 <div class="note" style="margin-top:14px"><strong>Use past-tense reporting verbs for one study:</strong> <em>Reference [3] reported, found, observed, measured</em>. Use <em>suggested</em> when the authors used cautious language. For limitations, continue to <a href="#evaluation">Move 6</a>.</div>
-<p class="move-next"><strong>Next →</strong> <a href="#implication">Move 5 — State the implication</a></p>
-</section>
+</div></details>
+<div class="stepfoot"><a class="stepbtn prev" href="#interpretation" data-go="3">← Interpretation</a><a class="stepbtn next" href="#implication" data-go="5">Next: Implication →</a></div>
+</article>
 
-<section id="implication"><div class="head"><div><span class="label">Move 5 of 6 · Implication · Discussion</span><h2>Move 5 — Explain Why the Finding Matters</h2></div><p>Connect the finding to a possible engineering use. Say what it could mean in practice without promising more than the tests show.</p></div>
-<div class="table-scroll" role="region" aria-label="Move 5 implication language" tabindex="0"><table><thead><tr><th scope="col">Function</th><th scope="col">Language</th><th scope="col">Engineering example</th></tr></thead><tbody><tr><th scope="row" class="sl">State an implication</th><td>therefore · <span class="kw-int">this implies</span> · <span class="kw-int">may</span> / <span class="kw-int">could</span> + verb · has implications for</td><td>Design B <span class="kw-int">may</span> therefore be preferable for duty cycles dominated by high load.</td></tr></tbody></table></div>
+<article class="step" id="implication" role="tabpanel" aria-labelledby="tab-5" tabindex="-1" data-annot="Fig. 1, Move 5: if the high-load result holds in service, Design B could reduce losses over duty cycles dominated by high load.">
+<p class="step-kicker">Move 5 of 6 <span class="phase-chip dis">Discussion</span></p>
+<h3 class="step-title">Implication</h3>
+<p class="step-q">Why does the finding matter for an engineering system or application?</p>
+<div class="fig-slot"></div>
+<div class="model"><span class="model-label">Model sentence · Fig. 1</span><p>If this holds in service, Design B <span class="kw-int">could</span> reduce losses over a duty cycle dominated by high load.</p></div>
+<p class="expl">Connect the finding to a possible engineering use. Say what it could mean in practice without promising more than the tests show.</p>
+<details class="deep"><summary>Detailed explanation: Move 5 — Explain Why the Finding Matters<span class="opt">Optional</span></summary><div class="deep-body">
+<div class="table-scroll" role="region" aria-label="Move 5 implication language" tabindex="0"><table><thead><tr><th scope="col">Function</th><th scope="col">Language</th><th scope="col">Engineering example</th></tr></thead><tbody><tr><th scope="row" class="sl">State an implication</th><td data-label="Language">therefore · <span class="kw-int">this implies</span> · <span class="kw-int">may</span> / <span class="kw-int">could</span> + verb · has implications for</td><td data-label="Engineering example">Design B <span class="kw-int">may</span> therefore be preferable for duty cycles dominated by high load.</td></tr></tbody></table></div>
 <div class="grid" style="margin-top:14px"><div class="grammarbox"><h3>Results → implication</h3><p><strong>Measured fact:</strong> Design B had higher efficiency at 80% and 100% load in the illustrative test.</p><p><strong>Possible use:</strong> Design B <em>could</em> reduce losses in applications that operate mainly at high load.</p></div><div class="grammarbox"><h3>Do not overclaim</h3><p><strong>Avoid:</strong> Design B will save energy in every converter.</p><p><strong>Better:</strong> If the measured trend also occurs under service conditions, Design B <em>may</em> reduce energy losses.</p></div></div>
 <div class="note" style="margin-top:14px"><strong>Move 5 asks: So what?</strong> Move 6 asks the final question: <em>What do the current measurements not tell us?</em></div>
-<p class="move-next"><strong>Next →</strong> <a href="#evaluation">Move 6 — State the limitation</a></p>
-</section>
+</div></details>
+<div class="stepfoot"><a class="stepbtn prev" href="#literature" data-go="4">← Explanation</a><a class="stepbtn next" href="#evaluation" data-go="6">Next: Limitation →</a></div>
+</article>
 
-<section id="evaluation"><div class="head"><div><span class="label">Move 6 of 6 · Limitation · Discussion</span><h2>Move 6 — Evaluate the Evidence and State Its Limits</h2></div><p>Check repeats, error bars, unusual values and missing measurements. Write one specific limitation supported by the study design.</p></div>
+<article class="step" id="evaluation" role="tabpanel" aria-labelledby="tab-6" tabindex="-1" data-annot="Fig. 1, Move 6 limitation: one prototype per design, no repeats and no error bars; the high-load gap of at most 1.2 percentage points may be within measurement uncertainty; the vertical axis starts at 84%.">
+<p class="step-kicker">Move 6 of 6 <span class="phase-chip dis">Discussion</span></p>
+<h3 class="step-title">Limitation</h3>
+<p class="step-q">What can the data NOT establish?<span>Identify uncertainty or missing tests.</span></p>
+<div class="fig-slot"></div>
+<div class="model"><span class="model-label">Model sentence · Fig. 1</span><p><span class="kw-cmp">However</span>, only one prototype per design was tested, with no repeat measurements. The high-load difference (at most 1.2 <span class="kw-cmp">percentage points</span>) <span class="kw-lim">may</span> be within measurement uncertainty and <span class="kw-lim">should be interpreted with caution</span>.</p></div>
+<p class="expl">Check repeats, error bars, unusual values and missing measurements. Write one specific limitation supported by the study design.</p>
+<div class="warning" style="margin-top:14px"><strong>Always include a limitation.</strong> It shows what the evidence cannot establish. In move 4, a reason is still <em>possible</em> unless you tested it.</div>
+<details class="deep"><summary>Detailed explanation: Move 6 — Evaluate the Evidence and State Its Limits<span class="opt">Optional</span></summary><div class="deep-body">
 <div class="note" style="margin-bottom:14px"><strong>Compare predicted and measured values:</strong> At 14:00, measured output (2.8 kW) was <span class="kw-eval">lower than expected</span> from the simulation (4.0 kW). Useful expressions include <em>unexpectedly</em> and <em>was expected to … but</em>. The gap should be investigated; it does not prove a specific cause.</div>
-<div class="table-scroll " style="" role="region" aria-label="Checks for evaluating a figure" tabindex="0"><table><caption class="sr-only">Checks for evaluating a figure</caption><thead><tr><th scope="col">Check</th><th scope="col">Question</th><th scope="col">Language frame (values from Figs. 1–3)</th></tr></thead><tbody><tr><th scope="row" class="sl">Sample size / repeats</th><td>How many repeats? One prototype?</td><td>Each bar is the mean of three repeated tests; with <em>n</em> = 3 the estimate of variability is itself uncertain. Fig. 1 reports a single prototype of each design.</td></tr><tr><th scope="row" class="sl">Error bars</th><td>What do they show (SD, SE, range)? Do they overlap?</td><td>The SD bars of Methods 2 and 3 overlap (94 ± 7 and 87 ± 6 Wh), so they <span class="kw-eval">do not resolve</span> the 7 Wh difference; an overlap is not a significance test.</td></tr><tr><th scope="row" class="sl">Outlier / anomaly</th><td>Which point does not fit? Is its spread unusual?</td><td>The 14:00 value (2.8 ± 0.9 kW) is <span class="kw-eval">anomalous</span>: its SD is three times that at 12:00 (0.3 kW).</td></tr><tr><th scope="row" class="sl">Expected vs observed</th><td>What did the model or literature predict? How large is the gap?</td><td>Measured output was 30% <span class="kw-down">below</span> the simulation at 14:00 (2.8 <span class="kw-cmp">compared with</span> 4.0 kW), <span class="kw-cmp">whereas</span> differences at the other times did not exceed 0.3 kW and were no larger than the SD.</td></tr><tr><th scope="row" class="sl">Measurement limits</th><td>Resolution, interval, instrument accuracy, missing variables</td><td>Output was logged at two-hour intervals, so short-term fluctuations are not captured, and irradiance was not recorded.</td></tr><tr><th scope="row" class="sl">Axis scale</th><td>Does the axis start at zero?</td><td>Note that the vertical axis in Fig. 1 starts at 84%, which visually exaggerates the <span class="kw-cmp">gap</span> between designs.</td></tr><tr><th scope="row" class="sl">Generalisability</th><td>One prototype, one site, one rating?</td><td>These findings <span class="kw-lim">may not generalise</span> to other converter ratings, because a single prototype of each design was tested.</td></tr></tbody></table></div>
+<div class="table-scroll " style="" role="region" aria-label="Checks for evaluating a figure" tabindex="0"><table><caption class="sr-only">Checks for evaluating a figure</caption><thead><tr><th scope="col">Check</th><th scope="col">Question</th><th scope="col">Language frame (values from Figs. 1–3)</th></tr></thead><tbody><tr><th scope="row" class="sl">Sample size / repeats</th><td data-label="Question">How many repeats? One prototype?</td><td data-label="Language frame (values from Figs. 1–3)">Each bar is the mean of three repeated tests; with <em>n</em> = 3 the estimate of variability is itself uncertain. Fig. 1 reports a single prototype of each design.</td></tr><tr><th scope="row" class="sl">Error bars</th><td data-label="Question">What do they show (SD, SE, range)? Do they overlap?</td><td data-label="Language frame (values from Figs. 1–3)">The SD bars of Methods 2 and 3 overlap (94 ± 7 and 87 ± 6 Wh), so they <span class="kw-eval">do not resolve</span> the 7 Wh difference; an overlap is not a significance test.</td></tr><tr><th scope="row" class="sl">Outlier / anomaly</th><td data-label="Question">Which point does not fit? Is its spread unusual?</td><td data-label="Language frame (values from Figs. 1–3)">The 14:00 value (2.8 ± 0.9 kW) is <span class="kw-eval">anomalous</span>: its SD is three times that at 12:00 (0.3 kW).</td></tr><tr><th scope="row" class="sl">Expected vs observed</th><td data-label="Question">What did the model or literature predict? How large is the gap?</td><td data-label="Language frame (values from Figs. 1–3)">Measured output was 30% <span class="kw-down">below</span> the simulation at 14:00 (2.8 <span class="kw-cmp">compared with</span> 4.0 kW), <span class="kw-cmp">whereas</span> differences at the other times did not exceed 0.3 kW and were no larger than the SD.</td></tr><tr><th scope="row" class="sl">Measurement limits</th><td data-label="Question">Resolution, interval, instrument accuracy, missing variables</td><td data-label="Language frame (values from Figs. 1–3)">Output was logged at two-hour intervals, so short-term fluctuations are not captured, and irradiance was not recorded.</td></tr><tr><th scope="row" class="sl">Axis scale</th><td data-label="Question">Does the axis start at zero?</td><td data-label="Language frame (values from Figs. 1–3)">Note that the vertical axis in Fig. 1 starts at 84%, which visually exaggerates the <span class="kw-cmp">gap</span> between designs.</td></tr><tr><th scope="row" class="sl">Generalisability</th><td data-label="Question">One prototype, one site, one rating?</td><td data-label="Language frame (values from Figs. 1–3)">These findings <span class="kw-lim">may not generalise</span> to other converter ratings, because a single prototype of each design was tested.</td></tr></tbody></table></div>
 <div class="grid" style="margin-top:14px"><div class="grammarbox"><h3>Limitation formulas</h3><ul><li><span class="kw-lim">A limitation of this study is that</span> …</li><li><span class="kw-lim">The results should be interpreted with caution because</span> …</li><li>It was not possible to <span class="kw-eval">confirm</span> whether … because …</li><li>Future work should … (to remove the limitation)</li></ul></div><div class="grammarbox"><h3>Good limitation vs weak limitation</h3><p><strong>Weak:</strong> “The experiment had some errors.”</p><p><strong>Specific:</strong> “Only three repeats were performed per method, so the 7 Wh difference between Methods 2 and 3 should be interpreted with caution.”</p></div></div>
+</div></details>
+<div class="stepfoot"><a class="stepbtn prev" href="#implication" data-go="5">← Implication</a><a class="stepbtn next" href="#six-together">Put the six moves together →</a></div>
+</article>
+</div>
+</div>
 
-<p class="move-next"><strong>Next →</strong> <a href="#strength">Writing check — Are your claims appropriately strong?</a></p>
+<div class="together" id="six-together">
+<span class="label">Summary · all six moves for Fig. 1</span>
+<h3>Put the Six Moves Together</h3>
+<p>Read the six model sentences in order: two Results moves, then four Discussion moves.</p>
+<div class="table-scroll ways" style="" role="region" aria-label="Model sentences for the six moves, Fig. 1" tabindex="0"><table><caption class="sr-only">Model sentences for the six moves, Fig. 1</caption><thead><tr><th scope="col">Move</th><th scope="col">Model sentence for Fig. 1 (values from this lesson’s figures)</th></tr></thead><tbody><tr class="sit"><th scope="colgroup" colspan="2">Results <small>— past tense, close to the data</small></th></tr><tr><th scope="row" class="sl">1 Observation</th><td data-label="Model sentence for Fig. 1 (values from this lesson’s figures)">Both designs exceeded 95% efficiency at each measured load from 40% to 100%, peaking at 96.4% (Design A, 60% load) and 96.7% (Design B, 80% load) (Fig. 1).</td></tr><tr><th scope="row" class="sl">2 Comparison</th><td data-label="Model sentence for Fig. 1 (values from this lesson’s figures)">Design A was more efficient at low loads: <span class="kw-cmp">by</span> 4.5 <span class="kw-cmp">percentage points</span> at 10%. <span class="kw-cmp">However</span>, Design B was higher <span class="kw-cmp">by</span> 0.7 points at 80% load and 1.2 at 100%. The curves crossed between 60% and 80% load (about 66% by linear interpolation).</td></tr><tr class="sit"><th scope="colgroup" colspan="2">Discussion <small>— present tense for interpretation; calibrated claims</small></th></tr><tr><th scope="row" class="sl">3 Interpretation</th><td data-label="Model sentence for Fig. 1 (values from this lesson’s figures)"><span class="kw-int">This may suggest that</span> Design B is better suited to applications in which the converter operates mainly at high load.</td></tr><tr><th scope="row" class="sl">4 Explanation with evidence</th><td data-label="Model sentence for Fig. 1 (values from this lesson’s figures)"><span class="kw-int">A possible explanation is</span> lower switching loss in Design B at high current, as [3] also proposes for designs of this type.</td></tr><tr><th scope="row" class="sl">5 Implication</th><td data-label="Model sentence for Fig. 1 (values from this lesson’s figures)">If this holds in service, Design B <span class="kw-int">could</span> reduce losses over a duty cycle dominated by high load.</td></tr><tr><th scope="row" class="sl">6 Limitation</th><td data-label="Model sentence for Fig. 1 (values from this lesson’s figures)"><span class="kw-cmp">However</span>, only one prototype per design was tested, with no repeat measurements. The high-load difference (at most 1.2 <span class="kw-cmp">percentage points</span>) <span class="kw-lim">may</span> be within measurement uncertainty and <span class="kw-lim">should be interpreted with caution</span>.</td></tr></tbody></table></div>
+<p class="small" style="margin-top:8px">[3] is a hypothetical placeholder reference (see the note in the Figures section).</p>
+</div>
+
+<aside class="mnemonic" aria-labelledby="memory-title">
+<div class="tagline"><span class="tag">Memory aid · optional</span><h3 id="memory-title">Show → Compare → Interpret → Qualify</h3></div>
+<p>Use these four steps when analysing a figure. It is a shortcut for remembering the six moves, not a separate framework.</p>
+<div class="memory"><div><b>SHOW</b><span>Report the key values accurately (Week 5 skills).</span></div><div><b>COMPARE</b><span>Compare conditions; quantify gaps and identify crossovers.</span></div><div><b>INTERPRET</b><span>Explain what the pattern may mean; link it to evidence.</span></div><div><b>QUALIFY</b><span>State what follows, what remains uncertain and how strong the claim is.</span></div></div>
+<div class="note memory-map" style="margin-top:14px"><strong>One process, two ways to remember it:</strong> SHOW = Move 1 (Observation); COMPARE = Move 2; INTERPRET = Moves 3–5 (Meaning, Evidence, Implication); QUALIFY = Move 6 (Limitation). Check claim strength throughout. <strong>Follow the six numbered moves below.</strong></div>
+</aside>
+<div class="note" style="margin-top:14px"><strong>Not extra moves:</strong> <a href="#strength">Claim strength</a> is a language check you use across the six moves. <a href="#variety">Sentence variety</a> is an optional writing tool. <a href="#warmup">Warm-up</a>, <a href="#practice">activities</a>, <a href="#quiz1">Quiz 1</a> and <a href="#homework">homework</a> let you practise the six moves.</div>
 </section>
 
 <section id="strength"><div class="head"><div><span class="label">Writing check · Use with all six moves</span><h2>Writing Check — Match Your Claim to the Evidence</h2></div><p>This is NOT a seventh move. Check that each factual statement, interpretation and possible explanation is no stronger or weaker than the evidence supports.</p></div>
@@ -166,13 +667,17 @@
 </section>
 
 <section id="variety"><div class="head"><div><span class="label">Optional writing tool · Supports all six moves <span class="time">Pre-class</span></span><h2>Writing Tool — Say the Same Finding in Different Ways</h2></div><p>Use varied academic expressions without changing the data or exaggerating the claim. This is a language tool, not another move.</p></div>
+<details class="deep"><summary>Open the writing tool: same finding, different structures<span class="opt">Optional · pre-class</span></summary><div class="deep-body">
+
 <div class="kw-legend" role="note" aria-label="Structure key"><b class="lt">Reading the table</b><span class="i">Each line keeps the <b>same values</b> from Figs. 1–3</span><span class="i">The <b>label</b> names the structure</span><span class="i">Check the <b>strength band</b> before you swap one for another</span></div>
-<div class="table-scroll ways" style="" role="region" aria-label="Several ways to write the same finding" tabindex="0"><table><caption class="sr-only">Several ways to write the same finding</caption><thead><tr><th scope="col">Structure</th><th scope="col">Equivalent academic sentence (values from this lesson’s figures)</th></tr></thead><tbody><tr class="sit"><th scope="colgroup" colspan="2">1. Comparison <small>— Fig. 3, Method 3 (87 Wh) and Method 1 (148 Wh)</small></th></tr><tr><th scope="row" class="sl">Comparative + quantity</th><td>Method 3 lost 61 Wh less energy per day than Method 1 (87 <span class="kw-cmp">against</span> 148 Wh), a loss 41% lower than that of Method 1.</td></tr><tr><th scope="row" class="sl">Contrast linker</th><td>Method 1 lost 148 Wh per day, <span class="kw-cmp">whereas</span> Method 3 lost only 87 Wh.</td></tr><tr><th scope="row" class="sl">Ratio</th><td>The daily loss of Method 1 was 1.7 times <span class="kw-cmp">as high as</span> that of Method 3 (148 and 87 Wh).</td></tr><tr class="sit"><th scope="colgroup" colspan="2">2. Crossover <small>— Fig. 1, efficiency curves of Designs A and B</small></th></tr><tr><th scope="row" class="sl">Verb “overtake”</th><td>Design B <span class="kw-cmp">overtook</span> Design A between 60% and 80% load (about 66% by linear interpolation).</td></tr><tr><th scope="row" class="sl">Noun-phrase subject</th><td>The efficiency advantage of Design B <span class="kw-up">emerged</span> between 60% and 80% load.</td></tr><tr><th scope="row" class="sl">Curve-focused</th><td>The two efficiency curves crossed between 60% and 80% load; at 80% load Design B was the more efficient design (96.7% against 96.0%).</td></tr><tr class="sit"><th scope="colgroup" colspan="2">3. Interpretation <small>— Fig. 1, what the crossover may mean (one prototype)</small></th></tr><tr><th scope="row" class="sl">Reporting verb + that</th><td><span class="kw-int">This may suggest that</span> Design B is better suited to high-load operation.</td></tr><tr><th scope="row" class="sl">Finding as subject</th><td>The crossover in Fig. 1 <span class="kw-int">may suggest that</span> Design B is better suited to high-load operation.</td></tr><tr><th scope="row" class="sl">“appears to”</th><td>Design B <span class="kw-int">appears to</span> be better suited to high-load operation, although only one prototype was tested.</td></tr><tr class="sit"><th scope="colgroup" colspan="2">4. Attributing a cause cautiously <small>— Fig. 1, Design B at 10% load (86.5% against 91.0%)</small></th></tr><tr><th scope="row" class="sl">“may be attributed to”</th><td>The lower efficiency of Design B at 10% load <span class="kw-int">may be attributed to</span> load-independent losses, which weigh more heavily at light load.</td></tr><tr><th scope="row" class="sl">“A possible explanation is”</th><td><span class="kw-int">A possible explanation</span> for the lower efficiency of Design B at light load is a larger fixed loss; this was not tested.</td></tr><tr><th scope="row" class="sl">“could reflect”</th><td>The lower efficiency of Design B at light load <span class="kw-int">could reflect</span> higher fixed losses, but the losses were not separated.</td></tr></tbody></table></div>
+<div class="table-scroll ways" style="" role="region" aria-label="Several ways to write the same finding" tabindex="0"><table><caption class="sr-only">Several ways to write the same finding</caption><thead><tr><th scope="col">Structure</th><th scope="col">Equivalent academic sentence (values from this lesson’s figures)</th></tr></thead><tbody><tr class="sit"><th scope="colgroup" colspan="2">1. Comparison <small>— Fig. 3, Method 3 (87 Wh) and Method 1 (148 Wh)</small></th></tr><tr><th scope="row" class="sl">Comparative + quantity</th><td data-label="Equivalent academic sentence (values from this lesson’s figures)">Method 3 lost 61 Wh less energy per day than Method 1 (87 <span class="kw-cmp">against</span> 148 Wh), a loss 41% lower than that of Method 1.</td></tr><tr><th scope="row" class="sl">Contrast linker</th><td data-label="Equivalent academic sentence (values from this lesson’s figures)">Method 1 lost 148 Wh per day, <span class="kw-cmp">whereas</span> Method 3 lost only 87 Wh.</td></tr><tr><th scope="row" class="sl">Ratio</th><td data-label="Equivalent academic sentence (values from this lesson’s figures)">The daily loss of Method 1 was 1.7 times <span class="kw-cmp">as high as</span> that of Method 3 (148 and 87 Wh).</td></tr><tr class="sit"><th scope="colgroup" colspan="2">2. Crossover <small>— Fig. 1, efficiency curves of Designs A and B</small></th></tr><tr><th scope="row" class="sl">Verb “overtake”</th><td data-label="Equivalent academic sentence (values from this lesson’s figures)">Design B <span class="kw-cmp">overtook</span> Design A between 60% and 80% load (about 66% by linear interpolation).</td></tr><tr><th scope="row" class="sl">Noun-phrase subject</th><td data-label="Equivalent academic sentence (values from this lesson’s figures)">The efficiency advantage of Design B <span class="kw-up">emerged</span> between 60% and 80% load.</td></tr><tr><th scope="row" class="sl">Curve-focused</th><td data-label="Equivalent academic sentence (values from this lesson’s figures)">The two efficiency curves crossed between 60% and 80% load; at 80% load Design B was the more efficient design (96.7% against 96.0%).</td></tr><tr class="sit"><th scope="colgroup" colspan="2">3. Interpretation <small>— Fig. 1, what the crossover may mean (one prototype)</small></th></tr><tr><th scope="row" class="sl">Reporting verb + that</th><td data-label="Equivalent academic sentence (values from this lesson’s figures)"><span class="kw-int">This may suggest that</span> Design B is better suited to high-load operation.</td></tr><tr><th scope="row" class="sl">Finding as subject</th><td data-label="Equivalent academic sentence (values from this lesson’s figures)">The crossover in Fig. 1 <span class="kw-int">may suggest that</span> Design B is better suited to high-load operation.</td></tr><tr><th scope="row" class="sl">“appears to”</th><td data-label="Equivalent academic sentence (values from this lesson’s figures)">Design B <span class="kw-int">appears to</span> be better suited to high-load operation, although only one prototype was tested.</td></tr><tr class="sit"><th scope="colgroup" colspan="2">4. Attributing a cause cautiously <small>— Fig. 1, Design B at 10% load (86.5% against 91.0%)</small></th></tr><tr><th scope="row" class="sl">“may be attributed to”</th><td data-label="Equivalent academic sentence (values from this lesson’s figures)">The lower efficiency of Design B at 10% load <span class="kw-int">may be attributed to</span> load-independent losses, which weigh more heavily at light load.</td></tr><tr><th scope="row" class="sl">“A possible explanation is”</th><td data-label="Equivalent academic sentence (values from this lesson’s figures)"><span class="kw-int">A possible explanation</span> for the lower efficiency of Design B at light load is a larger fixed loss; this was not tested.</td></tr><tr><th scope="row" class="sl">“could reflect”</th><td data-label="Equivalent academic sentence (values from this lesson’s figures)">The lower efficiency of Design B at light load <span class="kw-int">could reflect</span> higher fixed losses, but the losses were not separated.</td></tr></tbody></table></div>
 <div class="grid" style="margin-top:14px"><div class="grammarbox"><h3>Notes on register</h3><ul><li>Impersonal passives (<em>It may be inferred that…</em>) are formal and common in theses; avoid stacking them.</li><li>Noun-phrase subjects (<em>The efficiency advantage of Design B emerged…</em>) suit a Discussion; verb forms suit an Abstract.</li><li>Keep the same values in every version. If you change the strength band, you have changed the claim.</li></ul></div></div>
 <div class="task"><h3><span class="tier">Optional</span>Quick Practice — Three Ways <span class="time">Optional · pre-class · 5 min</span></h3>
 <p><strong>Situation (Fig. 3):</strong> Method 3 recorded 87 ± 6 Wh and Method 2 recorded 94 ± 7 Wh. Write the <strong>same limitation</strong> in three different structures, without using “significant”. Keep the values exact.</p>
 <textarea aria-label="Three ways practice answer" placeholder="1) …  2) …  3) …"></textarea>
 <details class="model"><summary>Show model answer</summary><div class="mbody"><ul><li><strong>“do not resolve”:</strong> The 7 Wh difference between Method 3 (87 ± 6 Wh) and Method 2 (94 ± 7 Wh) is <span class="kw-eval">not resolved</span> by the data, because the SD bars overlap.</li><li><strong>“however” + caution:</strong> Method 3 recorded a lower loss than Method 2 (by 7 Wh, or about 7%); <span class="kw-cmp">however</span>, the overlapping SD bars mean that this result <span class="kw-lim">should be interpreted with caution</span>.</li><li><strong>“A limitation is that”:</strong> <span class="kw-lim">A limitation of this study is that</span> only three repeats were performed, so it is not possible to <span class="kw-eval">confirm</span> that Method 3 <span class="kw-eval">outperformed</span> Method 2.</li></ul><p>Check: same values (87 ± 6, 94 ± 7, 7 Wh) · no “significant” · the claim is as strong as the evidence allows.</p></div></details></div>
+
+</div></details>
 </section>
 
 <section id="practice"><div class="head"><div><span class="label">Guided practice · Revisit all six moves</span><h2>Practise the Six Moves with Engineering Data</h2></div><p>Try each activity before revealing its model answer. A: warm-up; B–C: guided tasks; E: six-move practice; F: after Quiz 1; D: homework.</p></div>
@@ -199,8 +704,8 @@
 </section>
 
 <section id="quiz1"><div class="head"><div><span class="label">Assessed · Syllabus Quiz 1 <span class="time">15 min writing + 3 min</span> <span class="time">5 marks</span></span><h2>Quiz 1 · Weeks 5–6</h2></div><p>Individual and closed book. Use the Fig. 4 data table below; Figs. 1–3 are not needed. Write full sentences where asked.</p></div>
-<div class="table-scroll " style="" role="region" aria-label="Quiz 1 structure" tabindex="0"><table><caption class="sr-only">Quiz 1 structure</caption><thead><tr><th scope="col">Part</th><th scope="col">Task</th><th scope="col">Time</th><th scope="col">Marks</th></tr></thead><tbody><tr><td>A</td><td>Identify and correct errors (3 sentences)</td><td>4 min</td><td>1.5</td></tr><tr><td>B</td><td>Percent versus percentage points (2 items)</td><td>2 min</td><td>1</td></tr><tr><td>C</td><td>Choose the appropriate claim (2 items)</td><td>3 min</td><td>1</td></tr><tr><td>D</td><td>Write two analytical sentences from a figure</td><td>6 min</td><td>1.5</td></tr><tr><td><strong>Total</strong></td><td></td><td><strong>15 min</strong></td><td><strong>5</strong></td></tr></tbody></table></div>
-<div class="note" style="margin-top:12px"><strong>Fig. 4 (illustrative data).</strong> Total harmonic distortion (THD) of the output current of a single-phase inverter, with and without an output filter. One inverter was tested, with one run at each load.<div class="table-scroll " style="margin-top:12px" role="region" aria-label="Fig. 4 data: THD with and without an output filter" tabindex="0"><table><caption class="sr-only">Fig. 4 data: THD with and without an output filter</caption><thead><tr><th scope="col">Load (% of rated)</th><th scope="col">25</th><th scope="col">50</th><th scope="col">75</th><th scope="col">100</th></tr></thead><tbody><tr><th scope="row" class="sl">THD without filter (%)</th><td>9.0</td><td>6.0</td><td>4.5</td><td>4.2</td></tr><tr><th scope="row" class="sl">THD with filter (%)</th><td>5.4</td><td>3.6</td><td>3.0</td><td>2.9</td></tr></tbody></table></div><p class="small" style="margin:8px 0 0"><strong>Caption (IEEE):</strong> Fig. 4. THD of the inverter output current with and without an output filter; one inverter, one run at each load.</p></div>
+<div class="table-scroll data " style="" role="region" aria-label="Quiz 1 structure" tabindex="0"><table><caption class="sr-only">Quiz 1 structure</caption><thead><tr><th scope="col">Part</th><th scope="col">Task</th><th scope="col">Time</th><th scope="col">Marks</th></tr></thead><tbody><tr><td data-label="Part">A</td><td data-label="Task">Identify and correct errors (3 sentences)</td><td data-label="Time">4 min</td><td data-label="Marks">1.5</td></tr><tr><td data-label="Part">B</td><td data-label="Task">Percent versus percentage points (2 items)</td><td data-label="Time">2 min</td><td data-label="Marks">1</td></tr><tr><td data-label="Part">C</td><td data-label="Task">Choose the appropriate claim (2 items)</td><td data-label="Time">3 min</td><td data-label="Marks">1</td></tr><tr><td data-label="Part">D</td><td data-label="Task">Write two analytical sentences from a figure</td><td data-label="Time">6 min</td><td data-label="Marks">1.5</td></tr><tr><td data-label="Part"><strong>Total</strong></td><td data-label="Task"></td><td data-label="Time"><strong>15 min</strong></td><td data-label="Marks"><strong>5</strong></td></tr></tbody></table></div>
+<div class="note" style="margin-top:12px"><strong>Fig. 4 (illustrative data).</strong> Total harmonic distortion (THD) of the output current of a single-phase inverter, with and without an output filter. One inverter was tested, with one run at each load.<div class="table-scroll data " style="margin-top:12px" role="region" aria-label="Fig. 4 data: THD with and without an output filter" tabindex="0"><table><caption class="sr-only">Fig. 4 data: THD with and without an output filter</caption><thead><tr><th scope="col">Load (% of rated)</th><th scope="col">25</th><th scope="col">50</th><th scope="col">75</th><th scope="col">100</th></tr></thead><tbody><tr><th scope="row" class="sl">THD without filter (%)</th><td data-label="25">9.0</td><td data-label="50">6.0</td><td data-label="75">4.5</td><td data-label="100">4.2</td></tr><tr><th scope="row" class="sl">THD with filter (%)</th><td data-label="25">5.4</td><td data-label="50">3.6</td><td data-label="75">3.0</td><td data-label="100">2.9</td></tr></tbody></table></div><p class="small" style="margin:8px 0 0"><strong>Caption (IEEE):</strong> Fig. 4. THD of the inverter output current with and without an output filter; one inverter, one run at each load.</p></div>
 <div class="card" style="margin-top:14px">
 <fieldset class="qpart"><legend>Part A — Identify and correct <span class="time">1.5 marks · 4 min</span></legend>
 <p>Each sentence has <strong>one main problem</strong>. Name it (0.25) and write a corrected sentence (0.25).</p>
@@ -242,7 +747,7 @@
 <p class="small">Submit: Task 1, the figure (or its link), caption, paragraph, claim audit, reference, revision log and peer-review score sheet.</p></div>
 
 <h3>Assessment Rubric (5 criteria × 3 levels = 15 marks)</h3>
-<div class="table-scroll " style="" role="region" aria-label="Assessment rubric" tabindex="0"><table><caption class="sr-only">Assessment rubric</caption><thead><tr><th scope="col">Criterion</th><th scope="col">3 — Thesis-ready</th><th scope="col">2 — Developing</th><th scope="col">1 — Needs revision</th></tr></thead><tbody><tr><th scope="row" class="sl">1. Accuracy and comparison</th><td>All values, units and calculations correct; gaps quantified; <span class="kw-cmp">percentage points</span> and bases used correctly.</td><td>One or two small errors, or the comparison is not quantified.</td><td>Several errors, or a wrong direction or base.</td></tr><tr><th scope="row" class="sl">2. Move structure</th><td>All six moves in a logical order; Results and Discussion clearly distinguished.</td><td>Four or five moves, or the order is unclear.</td><td>Description only, or moves mixed.</td></tr><tr><th scope="row" class="sl">3. Calibration of claims</th><td>Verbs match the evidence band; causes hedged or tested; no untested “significant”; a specific limitation.</td><td>One overstated or understated claim; limitation general.</td><td>Causes or evaluation asserted without evidence.</td></tr><tr><th scope="row" class="sl">4. Literature link</th><td>Accurate comparison with a real source; IEEE citation correct; the agreement rule applied; difference explained cautiously.</td><td>Comparison present but vague, or a citation error.</td><td>No literature comparison, or an unsupported claim about the literature.</td></tr><tr><th scope="row" class="sl">5. Language, tense and conventions</th><td>Past for results, present for interpretation; varied, accurate structures; figure referenced and caption complete.</td><td>Minor tense or reference problems; some repetition.</td><td>Frequent tense or grammar errors; no reference or caption.</td></tr></tbody></table></div>
+<div class="table-scroll " style="" role="region" aria-label="Assessment rubric" tabindex="0"><table><caption class="sr-only">Assessment rubric</caption><thead><tr><th scope="col">Criterion</th><th scope="col">3 — Thesis-ready</th><th scope="col">2 — Developing</th><th scope="col">1 — Needs revision</th></tr></thead><tbody><tr><th scope="row" class="sl">1. Accuracy and comparison</th><td data-label="3 — Thesis-ready">All values, units and calculations correct; gaps quantified; <span class="kw-cmp">percentage points</span> and bases used correctly.</td><td data-label="2 — Developing">One or two small errors, or the comparison is not quantified.</td><td data-label="1 — Needs revision">Several errors, or a wrong direction or base.</td></tr><tr><th scope="row" class="sl">2. Move structure</th><td data-label="3 — Thesis-ready">All six moves in a logical order; Results and Discussion clearly distinguished.</td><td data-label="2 — Developing">Four or five moves, or the order is unclear.</td><td data-label="1 — Needs revision">Description only, or moves mixed.</td></tr><tr><th scope="row" class="sl">3. Calibration of claims</th><td data-label="3 — Thesis-ready">Verbs match the evidence band; causes hedged or tested; no untested “significant”; a specific limitation.</td><td data-label="2 — Developing">One overstated or understated claim; limitation general.</td><td data-label="1 — Needs revision">Causes or evaluation asserted without evidence.</td></tr><tr><th scope="row" class="sl">4. Literature link</th><td data-label="3 — Thesis-ready">Accurate comparison with a real source; IEEE citation correct; the agreement rule applied; difference explained cautiously.</td><td data-label="2 — Developing">Comparison present but vague, or a citation error.</td><td data-label="1 — Needs revision">No literature comparison, or an unsupported claim about the literature.</td></tr><tr><th scope="row" class="sl">5. Language, tense and conventions</th><td data-label="3 — Thesis-ready">Past for results, present for interpretation; varied, accurate structures; figure referenced and caption complete.</td><td data-label="2 — Developing">Minor tense or reference problems; some repetition.</td><td data-label="1 — Needs revision">Frequent tense or grammar errors; no reference or caption.</td></tr></tbody></table></div>
 <p class="small" style="margin-top:8px">12–15: ready for a Discussion chapter draft. 8–11: revise the lowest-scoring criterion. Below 8: redraft after consulting the models.</p>
 
 <h3>Peer Accuracy &amp; Language Check</h3><p class="small">Score the rubric, then tick the quick checks. Give <strong>one</strong> specific revision suggestion.</p><div class="peer"><div class="h">Check</div><div class="h">Yes</div><div class="h">No</div><div class="h">Revise</div><div>Values, units and percentage bases match the figure (re-check two yourself)</div><div>□</div><div>□</div><div>□</div><div>Results and Discussion moves are all present and in order</div><div>□</div><div>□</div><div>□</div><div>Claim strength matches the evidence (no “prove”, no untested “significant”)</div><div>□</div><div>□</div><div>□</div><div>Causes are hedged or supported; correlation is not treated as causation</div><div>□</div><div>□</div><div>□</div><div>Literature comparison is accurate and cited correctly (IEEE)</div><div>□</div><div>□</div><div>□</div><div>A specific limitation is stated; tense is accurate</div><div>□</div><div>□</div><div>□</div></div>
@@ -260,12 +765,138 @@
 
 </main>
 <footer><strong>English for Master · Week 6</strong><br>Describing Graphs &amp; Charts II: Analysis and Evaluation · University of Kufa · Faculty of Engineering · Electrical Engineering Department</footer>
-</div></div>
 <script>
 const solutionMap={"b": ["a: overclaim (it asserts proof of “best”, which one prototype cannot support). b: observed fact (band A), matches the evidence. c: tentative (band C), matches one prototype. d: supported-inference verb (band B), one band too strong for a single prototype with no repeats. e: underclaim, because the 100% values were measured (band A).", "Design B was more efficient than Design A at 80% and 100% load, and the data may suggest that it is better suited to high-load operation, although only one prototype of each design was tested."], "c": ["ERROR: unsupported cause (no data on the inverter or the weather). Better: A 1.2 kW shortfall and a large SD occurred together at 14:00; the cause cannot be stated without further data.", "OK: with the same prototype, the same load profile and randomised order, a controlled comparison supports a causal claim (148 to 87 Wh, 41% lower).", "ERROR: one anomalous time does not show that the model is wrong. Better: The model appears to predict output well at five of six times, but the 14:00 discrepancy should be investigated.", "ERROR: co-occurrence is not causation and the direction is assumed. Better: Low output and a high SD occurred together at 14:00; irradiance data could show whether a common cause explains both."]};
 function rootFor(k){return document.querySelector('#sol-'+k)}
 function fillSolution(k){const r=rootFor(k),a=solutionMap[k];if(!r||!a)return;const els=[...r.querySelectorAll('input[type=text],textarea')];a.forEach((v,i)=>{const e=els[i];if(e){if(!e.classList.contains('filled'))e.dataset.mine=e.value;e.value=v;e.classList.add('filled')}});const s=document.getElementById('status-'+k);if(s)s.textContent='Model filled. Compare meaning, claim strength, values, and grammar. Clear restores your own draft.'}
 function clearSolution(k){const r=rootFor(k);if(!r)return;r.querySelectorAll('input[type=text],textarea').forEach(e=>{e.value=e.classList.contains('filled')?(e.dataset.mine||''):'';e.classList.remove('filled')});const s=document.getElementById('status-'+k);if(s)s.textContent=''}
 const key='efm-progress-v1',btn=document.getElementById('complete');let a=[];try{a=JSON.parse(localStorage.getItem(key)||'[]')}catch(e){}function render(){if(a.includes(6)){btn.textContent='Week 6 Completed ✓';btn.classList.add('done')}else{btn.textContent='Mark Week 6 Complete';btn.classList.remove('done')}}btn.onclick=()=>{a=a.includes(6)?a.filter(x=>x!==6):[...a,6];try{localStorage.setItem(key,JSON.stringify(a))}catch(e){}render()};render();
+</script>
+<script>
+/* ===== Six-move stepper, figure tabs and navigation ===== */
+(function(){
+  var steps=[].slice.call(document.querySelectorAll('.step'));
+  var tabs=[].slice.call(document.querySelectorAll('.steptab'));
+  var lesson=document.getElementById('lesson');
+  var figpanel=document.getElementById('figpanel');
+  var figHome=figpanel.parentNode;
+  var annot=document.getElementById('fig-annot');
+  var bar=document.getElementById('progressbar');
+  var num=document.getElementById('stepnum');
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)');
+  var narrow=window.matchMedia('(max-width: 1023.98px)');
+  var current=0;
+
+  /* figure tabs */
+  var figtabs=[].slice.call(document.querySelectorAll('.figtab'));
+  var figs=figtabs.map(function(t){return document.getElementById(t.getAttribute('aria-controls'))});
+  function showFig(k,focus){
+    figtabs.forEach(function(t,i){var on=i===k;t.setAttribute('aria-selected',on);t.tabIndex=on?0:-1;figs[i].hidden=!on});
+    if(focus)figtabs[k].focus();
+  }
+  figtabs.forEach(function(t,i){
+    t.addEventListener('click',function(){showFig(i)});
+    t.addEventListener('keydown',function(e){
+      var k=null;if(e.key==='ArrowRight')k=(i+1)%3;if(e.key==='ArrowLeft')k=(i+2)%3;if(e.key==='Home')k=0;if(e.key==='End')k=2;
+      if(k!==null){e.preventDefault();showFig(k,true)}
+    });
+  });
+
+  /* place the figure next to the steps (wide) or inside the active step (narrow) */
+  function placeFigure(){
+    if(narrow.matches){steps[current].querySelector('.fig-slot').appendChild(figpanel)}
+    else if(figpanel.parentNode!==figHome){figHome.appendChild(figpanel)}
+  }
+
+  function scrollTo(el){
+    var top=el.getBoundingClientRect().top;
+    if(top<0||top>window.innerHeight*0.6){el.scrollIntoView({behavior:reduce.matches?'auto':'smooth',block:'start'})}
+  }
+
+  function show(i,opts){
+    opts=opts||{};
+    i=Math.max(0,Math.min(steps.length-1,i));
+    current=i;
+    steps.forEach(function(s,k){s.hidden=k!==i});
+    tabs.forEach(function(t,k){t.setAttribute('aria-selected',k===i);t.tabIndex=k===i?0:-1;t.classList.toggle('done',k<i)});
+    lesson.setAttribute('data-step',i+1);
+    bar.style.width=((i+1)/steps.length*100)+'%';
+    num.textContent=i+1;
+    showFig(0);
+    placeFigure();
+    annot.textContent=steps[i].getAttribute('data-annot')||'';
+    if(opts.hash!==false&&history.replaceState){history.replaceState(null,'','#'+steps[i].id)}
+    if(opts.scroll){scrollTo(narrow.matches?steps[i]:document.getElementById('roadmap'))}
+    if(opts.focusPanel){steps[i].focus({preventScroll:true})}
+    if(opts.focusTab){tabs[i].focus()}
+  }
+
+  tabs.forEach(function(t,i){
+    t.addEventListener('click',function(e){e.preventDefault();show(i)});
+    t.addEventListener('keydown',function(e){
+      var k=null;
+      if(e.key==='ArrowRight'||e.key==='ArrowDown')k=Math.min(i+1,5);
+      if(e.key==='ArrowLeft'||e.key==='ArrowUp')k=Math.max(i-1,0);
+      if(e.key==='Home')k=0;if(e.key==='End')k=5;
+      if(k!==null){e.preventDefault();show(k,{focusTab:true})}
+    });
+  });
+  [].slice.call(document.querySelectorAll('.stepbtn[data-go]')).forEach(function(b){
+    b.addEventListener('click',function(e){e.preventDefault();show(+b.getAttribute('data-go')-1,{scroll:true,focusPanel:true})});
+  });
+
+  /* arrow keys anywhere while the lesson is on screen (not while typing) */
+  document.addEventListener('keydown',function(e){
+    if(e.altKey||e.ctrlKey||e.metaKey)return;
+    if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;
+    var a=document.activeElement;
+    if(a&&(/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)||a.isContentEditable||a.closest('[role=tablist]')))return;
+    var r=lesson.getBoundingClientRect();
+    if(r.bottom<80||r.top>window.innerHeight-80)return;
+    e.preventDefault();
+    show(current+(e.key==='ArrowRight'?1:-1));
+  });
+
+  /* deep links: #figures … #evaluation open their move; other targets inside closed <details> open them */
+  function fromHash(scroll){
+    var id=decodeURIComponent(location.hash.slice(1));if(!id)return;
+    var el=document.getElementById(id);if(!el)return;
+    var idx=steps.indexOf(el);
+    if(idx>=0){show(idx,{hash:false});if(scroll){requestAnimationFrame(function(){el.scrollIntoView({block:'start'})})}return}
+    var d=el.closest('details');
+    if(d&&!d.open){d.open=true;if(scroll){requestAnimationFrame(function(){el.scrollIntoView({block:'start'})})}}
+  }
+  window.addEventListener('hashchange',function(){fromHash(true)});
+  narrow.addEventListener?narrow.addEventListener('change',placeFigure):narrow.addListener(placeFigure);
+
+  var startIdx=steps.map(function(s){return s.id}).indexOf(location.hash.slice(1));
+  show(startIdx>=0?startIdx:0,{hash:false});
+  if(location.hash){fromHash(true)}
+
+  /* print: every move and its detailed explanation */
+  var reopened=[];
+  window.addEventListener('beforeprint',function(){reopened=[].slice.call(document.querySelectorAll('details.deep:not([open])'));reopened.forEach(function(d){d.open=true});if(narrow.matches)figHome.appendChild(figpanel);figs.forEach(function(f){f.hidden=false})});
+  window.addEventListener('afterprint',function(){reopened.forEach(function(d){d.open=false});show(current,{hash:false})});
+
+  /* section navigation: mobile toggle + current section highlight */
+  var nav=document.getElementById('sitenav');
+  var toggle=nav.querySelector('.nav-toggle');
+  var cur=nav.querySelector('.nav-current');
+  var links=[].slice.call(nav.querySelectorAll('ul a'));
+  toggle.addEventListener('click',function(){var o=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',o)});
+  links.forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');toggle.setAttribute('aria-expanded','false')})});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&nav.classList.contains('open')){nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.focus()}});
+  document.addEventListener('click',function(e){if(nav.classList.contains('open')&&!nav.contains(e.target)){nav.classList.remove('open');toggle.setAttribute('aria-expanded','false')}});
+  var targets=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1))});
+  function markNav(){
+    var y=(nav.getBoundingClientRect().bottom||56)+40,active=-1;
+    targets.forEach(function(t,i){if(t&&t.getBoundingClientRect().top<=y)active=i});
+    links.forEach(function(a,i){if(i===active)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current')});
+    cur.textContent=active>=0?'· '+links[active].textContent:'';
+  }
+  var ticking=false;
+  window.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(function(){markNav();ticking=false})}},{passive:true});
+  markNav();
+})();
 </script>
 </body></html>
